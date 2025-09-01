@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>News | Bharat Chronicle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="index.html">Bharat Chronicle</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a class="active" href="news.html">News</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="news-feed-page">
+    <h1>Latest News</h1>
+    <div id="news-feed" class="posts-grid"></div>
+    <div id="loading" class="loading">Loading…</div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Bharat Chronicle · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
