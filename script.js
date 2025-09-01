@@ -1,160 +1,53 @@
-/*
- * Bharat Chronicle custom JavaScript
- *
- * Adds small enhancements like updating the current year and
- * gracefully handling the newsletter form submission.
- */
-
-// Set current year in footer
 document.addEventListener('DOMContentLoaded', () => {
-  // Update the footer year dynamically
-  const yearEl = document.getElementById('year');
-  if (yearEl) {
-    yearEl.textContent = new Date().getFullYear();
-  }
+  const streamEl = document.getElementById('news-stream'); // homepage
+  const feedEl   = document.getElementById('news-feed');   // news.html
 
-  // Newsletter form handler
-  const form = document.getElementById('newsletter-form');
-  if (form) {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const emailInput = form.querySelector('input[type="email"]');
-      // In a production site you would send the email to your mailing list service here.
-      // For this prototype we simply thank the subscriber.
-      alert(`Thank you for subscribing, ${emailInput.value}!`);
-      emailInput.value = '';
-    });
-  }
-
-  // Dynamic news feed loader
-  const streamEl = document.getElementById('news-stream');
-  const feedEl = document.getElementById('news-feed');
-  // If neither index nor feed container exists, no news to load.
   if (!streamEl && !feedEl) return;
-  let allNews = [];
-  let newsIndex = 0;
-  const batchSize = 4;
 
-  // Show/hide loading indicator helper
-  const loadingIndicator = document.getElementById('loading-indicator');
-  const showLoading = () => { if (loadingIndicator) loadingIndicator.hidden = false; };
-  const hideLoading = () => { if (loadingIndicator) loadingIndicator.hidden = true; };
-
-  // Fetch news from the local JSON file.  If this fails (for example when
-  // browsing the site via the file:// protocol, which blocks fetch for local
-  // files), fall back to the inline JSON stored in the #news-data script tag.
-  fetch('data/news.json')
-    .then(resp => {
-      if (!resp.ok) throw new Error('HTTP error');
-      return resp.json();
+  fetch(`data/news.json?cb=${Date.now()}`)
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(items => {
+      if (streamEl) renderTop(items);   // 8 on homepage
+      if (feedEl)  renderAll(items);    // infinite on news.html
     })
-    .then(data => {
-      allNews = Array.isArray(data) ? data : [];
-      if (allNews.length === 0) {
-        throw new Error('No news items found');
-      }
-      if (feedEl) {
-        // On the dedicated news page, render all items at once.
-        allNews.forEach((newsItem, idx) => {
-          const card = createNewsCard(newsItem, idx);
-          feedEl.appendChild(card);
-        });
-      } else if (streamEl) {
-        // On the homepage, render in batches with infinite scroll.
-        loadMoreNews();
-      }
-    })
-    .catch(err => {
-      console.warn('Unable to fetch data/news.json; falling back to inline news.', err);
-      try {
-        const inlineEl = document.getElementById('news-data');
-        if (inlineEl) {
-          const inlineJson = inlineEl.textContent.trim();
-          allNews = JSON.parse(inlineJson);
-          if (feedEl) {
-            allNews.forEach((newsItem, idx) => {
-              const card = createNewsCard(newsItem, idx);
-              feedEl.appendChild(card);
-            });
-          } else if (streamEl) {
-            loadMoreNews();
-          }
-        }
-      } catch (e) {
-        console.error('Failed to parse inline news data:', e);
-      }
-    });
+    .catch(console.error);
 
-  function createNewsCard(item, index) {
-    const article = document.createElement('article');
-    article.classList.add('post');
-    const imgDiv = document.createElement('div');
-    imgDiv.classList.add('post-img');
-    // Determine the image URL. Prefer the item image; otherwise cycle through local assets.
-    let imgUrl = item.image;
-    if (!imgUrl) {
-      const fallback = (index % 4) + 1;
-      imgUrl = `images/post${fallback}.png`;
-    }
-    imgDiv.style.backgroundImage = `url('${imgUrl}')`;
-    // Title and link
-    const h3 = document.createElement('h3');
-    const link = document.createElement('a');
-    link.href = item.link || '#';
-    link.target = '_blank';
-    link.rel = 'noopener';
-    link.textContent = item.title || 'Untitled';
-    h3.appendChild(link);
-    // Description
-    const p = document.createElement('p');
-    p.textContent = item.description || '';
-    article.appendChild(imgDiv);
-    article.appendChild(h3);
-    article.appendChild(p);
-    return article;
+  function renderTop(items) {
+    const top = items.slice(0, 8); // exactly 8
+    streamEl.innerHTML = top.map(cardHTML).join('');
   }
 
-  function loadMoreNews() {
-    if (newsIndex >= allNews.length) return;
-    showLoading();
-    const end = Math.min(newsIndex + batchSize, allNews.length);
-    for (let i = newsIndex; i < end; i++) {
-      const newsItem = allNews[i];
-      const card = createNewsCard(newsItem, i);
-      streamEl.appendChild(card);
-      // Insert a placeholder for advertisements after every batch, except at the end
-      if ((i + 1) % batchSize === 0 && i + 1 < allNews.length) {
-        const adDiv = document.createElement('div');
-        adDiv.classList.add('ad-placeholder');
-        adDiv.innerHTML = '<p>Advertisement</p>';
-        streamEl.appendChild(adDiv);
-      }
+  function renderAll(items) {
+    const chunk = 12;
+    let index = 0;
+    const loading = document.getElementById('loading');
+
+    function append() {
+      const next = items.slice(index, index + chunk);
+      feedEl.insertAdjacentHTML('beforeend', next.map(cardHTML).join(''));
+      index += chunk;
+      if (index >= items.length && loading) loading.remove();
     }
-    newsIndex = end;
-    hideLoading();
+
+    append();
+    const io = new IntersectionObserver(([e]) => {
+      if (e.isIntersecting && index < items.length) append();
+    });
+    if (loading) io.observe(loading);
   }
 
-  // Infinite scroll: load more news when near the bottom of the page
-  if (streamEl) {
-    window.addEventListener('scroll', () => {
-      if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 200) {
-        if (newsIndex < allNews.length) {
-          loadMoreNews();
-        }
-      }
-    });
+  function cardHTML(item) {
+    const img = item.image ? `<img src="${item.image}" alt="" loading="lazy">` : '';
+    const desc = item.description ? item.description : '';
+    return `
+      <article class="post">
+        <a class="card-link" href="${item.link}" target="_blank" rel="noopener">
+          <div class="thumb">${img}</div>
+          <h3>${item.title}</h3>
+          <p>${desc}</p>
+          <span class="read-src" style="margin:0 1rem;">Read full story ↗</span>
+        </a>
+      </article>
+    `;
   }
 });
-
-// Register service worker to enable PWA installation and offline support
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('service-worker.js')
-      .then((registration) => {
-        console.log('Service worker registered:', registration);
-      })
-      .catch((error) => {
-        console.error('Service worker registration failed:', error);
-      });
-  });
-}
