@@ -566,3 +566,49 @@ footer {
 .see-more-btn:hover {
     background: #b33030;
 }
+
+/* === Card: square thumbnail & compact text === */
+.post .thumb {
+  aspect-ratio: 1 / 1;         /* perfect square */
+  width: 100%;
+  overflow: hidden;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background: #f3f3f3;
+}
+
+.post .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;            /* fill square nicely */
+  display: block;
+}
+
+/* keep cards from getting 'tall' */
+.post h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 3.6em;
+  margin: 0.75rem 1rem 0.5rem;
+}
+
+.post p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0 1rem 0.75rem;
+}
+
+/* grid density */
+#news-stream.posts-grid,
+#news-feed.posts-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.post {
+  padding-bottom: 0.75rem;
+}
