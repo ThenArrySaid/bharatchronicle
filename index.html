@@ -1,190 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bharat Chronicle</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-eNjh2xV1nNwR7vKafirbk5n24KpD5CKzzZof5DlG5AEnhNXcA3q0kYHW9Izm06kVfxczXKAvQSnAeG38fHkeXA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bharat Chronicle — Pro-India News</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/favicon.png" />
+  <meta name="description" content="Bharat Chronicle — pro-India, credible, concise news." />
 </head>
 <body>
-    <!-- Header with navigation and hero section -->
-    <header>
-        <nav class="navbar container">
-            <div class="logo">
-                <span class="logo-icon">BC</span>
-                <span class="brand-name">Bharat Chronicle</span>
-            </div>
-            <!-- Checkbox hack for responsive nav toggle -->
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label">
-                <span></span>
-            </label>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#opinions">Opinions</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="privacy.html">Privacy</a></li>
-                <li><a href="terms.html">Terms</a></li>
-            </ul>
-        </nav>
-        <section class="hero" style="background-image: url('images/hero.png');">
-            <div class="hero-overlay container">
-                <h1>Sarcasm. News. Opinions.</h1>
-                <p>Bold takes and witty fact‑checks from the heart of Bharat.</p>
-                <a href="https://www.instagram.com/bharatchronicle/" target="_blank" class="btn primary-btn">
-                    <i class="fab fa-instagram"></i> Follow us on Instagram
-                </a>
-            </div>
-        </section>
-    </header>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Bharat Chronicle</a>
+      <nav class="nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Main content area -->
-    <main>
-        <!-- About section -->
-        <section id="about" class="about-section">
-            <div class="container">
-                <h2>About Bharat Chronicle</h2>
-                <p>Bharat Chronicle brings you thought‑provoking news, bold opinions and satire that embrace the spirit of India.  
-                We deliver stories that matter with a twist of humour—because life is too short to be boring. Join our journey as we deconstruct headlines, celebrate culture and challenge the status quo.</p>
-            </div>
-        </section>
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <h1>Pro-India, concise, credible.</h1>
+          <p>Headlines that matter. Clean summaries. Links to original sources.</p>
+          <a class="cta" href="news.html">Browse the full feed →</a>
+        </div>
+        <div class="hero-art">
+          <img src="images/hero.jpg" alt="Bharat Chronicle" loading="lazy">
+        </div>
+      </div>
+    </section>
 
-        <!-- Featured posts grid -->
-        <!-- Dynamic news feed section. The posts-grid below is populated via script.js
-             using data from the data/news.json file. It supports infinite scroll to mimic
-             a "river of news" experience inspired by modern news portals. -->
-        <section id="news" class="featured-posts">
-            <div class="container">
-<h2>Latest Stories <a href="news.html" class="see-more">(See more)</a></h2>
-                <!-- The posts-grid will be filled dynamically. Initially empty. -->
-                <div class="posts-grid" id="news-stream"></div>
-                <!-- Optional loading indicator -->
-                <div id="loading-indicator" class="loading-indicator" hidden>
-                    <span>Loading more stories…</span>
-                </div>
-            </div>
-        </section>
+    <!-- Safety / Editorial -->
+    <section class="safety-section">
+      <div class="container">
+        <h3>Our Commitment to Integrity</h3>
+        <p>
+          Bharat Chronicle follows a pro-India editorial stance with strict sourcing, fast corrections, and clear links to originals.
+          Summaries are generated from verified reports; opinions are labeled as such.
+        </p>
+      </div>
+    </section>
 
-        <!-- Opinions / call to action section -->
-        <section id="opinions" class="cta-section">
-            <div class="container cta-container">
-                <h2>Join the Conversation</h2>
-                <p>Have an opinion, meme or hot take? Submit your own stories or share your thoughts with our community.</p>
-                <a href="#contact" class="btn secondary-btn">Share Your Opinion</a>
-            </div>
-        </section>
+    <!-- Latest Stories (homepage preview) -->
+    <section class="container section-space">
+      <h2>Latest Stories</h2>
 
-        <!-- Newsletter subscription -->
-        <section class="newsletter-section">
-            <div class="container newsletter-container">
-                <h2>Stay Informed</h2>
-                <p>Subscribe to our newsletter to receive the latest stories, opinions and memes straight to your inbox.</p>
-                <form id="newsletter-form" class="newsletter-form">
-                    <input type="email" placeholder="Enter your email" required aria-label="Email">
-                    <button type="submit" class="btn secondary-btn">Subscribe</button>
-                </form>
-            </div>
-        </section>
+      <!-- Grid rendered by script.js (first 8 items) -->
+      <div id="news-stream" class="posts-grid"></div>
 
-        <!-- Safety and Editorial Guidelines -->
-        <section class="safety-section">
-            <div class="container safety-container">
-                <h2>Our Commitment to Integrity</h2>
-                <p>
-                    Bharat Chronicle adheres to stringent editorial standards to ensure that the
-                    news we publish is accurate, fair and supportive of India’s progress.
-                    We fact‑check our stories, cite credible sources and strive to
-                    highlight achievements that uplift the nation.  Our satire and
-                    opinions are clearly labelled to distinguish them from
-                    news reporting.
-                </p>
-            </div>
-        </section>
-    </main>
+      <!-- Centered “See more” button under the 8 cards -->
+      <div class="see-more-container">
+        <a href="news.html" class="see-more-btn">See more »</a>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <div class="container newsletter-inner">
+        <h3>Get Bharat Chronicle in your inbox</h3>
+        <!-- Replace this form with your Mailchimp/Brevo/MailerLite embed when ready -->
+        <form id="newsletter-form" class="newsletter-form" onsubmit="return false;">
+          <input type="email" id="newsletter-email" placeholder="you@example.com" required />
+          <button type="submit">Subscribe</button>
+        </form>
+        <small>No spam. Unsubscribe anytime.</small>
+      </div>
+    </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-            <div class="footer-brand">
-                <span class="logo-icon">BC</span>
-                <span class="brand-name">Bharat Chronicle</span>
-            </div>
-            <p>&copy; <span id="year"></span> Bharat Chronicle. All rights reserved.</p>
-            <ul class="social-links">
-                <li><a href="https://www.instagram.com/bharatchronicle/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#" target="_blank" rel="noopener"><i class="fab fa-x-twitter"></i></a></li>
-                <li><a href="#" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></li>
-            </ul>
-        </div>
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Bharat Chronicle • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a></p>
+      </div>
     </footer>
+  </main>
 
-    <script src="script.js" defer></script>
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script>
+    // year
+    document.getElementById('year').textContent = new Date().getFullYear();
 
-    <!-- Inline fallback data for the dynamic news feed.
-         When the page is opened directly via the file:// scheme, modern browsers
-         prevent JavaScript from loading local files via fetch() due to
-         cross‑origin restrictions.  To that end we embed a copy of the
-         news.json file below.  The script will use this data if it
-         cannot fetch from the data directory.  To update the feed, either
-         serve this site via a local webserver (so fetch works) or
-         replace the JSON below with fresh content generated by fetch_news.py.
-    -->
-    <script id="news-data" type="application/json">
-    [
-      {
-        "title": "India Posts Record Economic Growth",
-        "description": "Official figures show India’s GDP grew at its fastest pace in over a decade, driven by booming manufacturing and resilient domestic demand.",
-        "link": "https://example.com/news/india-record-growth",
-        "image": null
-      },
-      {
-        "title": "Chandrayaan‑3 Touches Down on the Moon",
-        "description": "ISRO’s latest lunar mission successfully lands near the Moon’s south pole, cementing India’s status as a spacefaring powerhouse.",
-        "link": "https://example.com/news/chandrayaan-3-landing",
-        "image": null
-      },
-      {
-        "title": "Start‑Up Hub: India Becomes 3rd Largest Ecosystem",
-        "description": "With record funding and unicorns, India overtakes the UK to become the third largest start‑up ecosystem globally.",
-        "link": "https://example.com/news/india-startup-ecosystem",
-        "image": null
-      },
-      {
-        "title": "Athletes Shine at World Championships",
-        "description": "Indian athletes bring home multiple medals from the World Athletics Championships, inspiring a new generation of sports fans.",
-        "link": "https://example.com/news/world-championships-success",
-        "image": null
-      },
-      {
-        "title": "Green Energy Startup Secures Mega Investment",
-        "description": "A Gurugram‑based renewable energy startup raises $100 million to expand solar and wind projects across the country.",
-        "link": "https://example.com/news/green-energy-startup",
-        "image": null
-      },
-      {
-        "title": "Digital India: Government Announces 5G Rollout",
-        "description": "The central government unveils a roadmap for nationwide 5G deployment, promising transformative connectivity by year‑end.",
-        "link": "https://example.com/news/5g-rollout-india",
-        "image": null
-      },
-      {
-        "title": "Culture Corner: Festival of Lights Unites Communities",
-        "description": "Millions across Bharat celebrate Diwali with diya displays, prayers and community outreach, demonstrating unity in diversity.",
-        "link": "https://example.com/news/diwali-celebration",
-        "image": null
-      },
-      {
-        "title": "India Leads Climate Action at Global Summit",
-        "description": "At the COP climate summit, India pledges to achieve net zero emissions ahead of schedule while advocating for climate justice.",
-        "link": "https://example.com/news/india-climate-leadership",
-        "image": null
-      }
-    ]
-    </script>
+    // simple newsletter placeholder (replace when you add a real provider)
+    const form = document.getElementById('newsletter-form');
+    if (form) {
+      form.addEventListener('submit', () => {
+        const email = document.getElementById('newsletter-email').value.trim();
+        if (!email) return;
+        alert('Thanks! You are on the list.');
+        form.reset();
+      });
+    }
+  </script>
+
+  <!-- Optional: small CSS hook if not already in style.css -->
+  <style>
+    .see-more-container { text-align: center; margin-top: 2rem; }
+    .see-more-btn {
+      display: inline-block; background: var(--primary, #c03636); color: #fff;
+      padding: .75rem 1.5rem; border-radius: 6px; font-weight: 600; text-decoration: none;
+      transition: background .2s ease-in-out;
+    }
+    .see-more-btn:hover { background: #b33030; }
+  </style>
 </body>
 </html>
