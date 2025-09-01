@@ -1,38 +1,50 @@
 [
   {
-    "title": "ISRO: Aditya-L1 completes one year at L1",
-    "description": "India’s solar observatory continues delivering data on the Sun’s corona and solar wind.",
-    "link": "https://www.isro.gov.in/",
+    "title": "Government Unveils New Growth Plan",
+    "description": "India's government has announced a sweeping economic stimulus package aimed at boosting manufacturing and infrastructure. Analysts say the plan could add billions to GDP over the next decade.",
+    "link": "https://example.com/news/government-growth-plan",
     "image": null
   },
   {
-    "title": "RBI Bulletin: India’s growth momentum remains resilient",
-    "description": "Central bank notes robust domestic demand and investment pipeline.",
-    "link": "https://rbi.org.in/",
+    "title": "High Court Sets Precedent in Landmark Case",
+    "description": "In a unanimous ruling, the Supreme Court delivered a historic verdict that redefines citizens' rights and will have far‑reaching implications for future litigation.",
+    "link": "https://example.com/news/supreme-court-ruling",
     "image": null
   },
   {
-    "title": "MEA: India strengthens partnerships across the Indo-Pacific",
-    "description": "Key diplomatic engagements advance strategic and economic ties.",
-    "link": "https://www.mea.gov.in/",
+    "title": "Iconic Actor Announces Retirement",
+    "description": "Bollywood legend Rajesh Kapoor surprised fans by announcing his retirement from cinema after a career spanning four decades. Tributes have poured in from across the industry.",
+    "link": "https://example.com/news/bollywood-retirement",
     "image": null
   },
   {
-    "title": "PIB Highlights: Infrastructure and Make in India",
-    "description": "Latest releases on highways, rail, and manufacturing investments.",
-    "link": "https://pib.gov.in/PressReleseNew.aspx",
+    "title": "Tech Giant Launches Affordable Smartphone",
+    "description": "Bharat's leading tech company unveiled a new smartphone that promises top‑tier features at a fraction of the cost. The device aims to make cutting‑edge technology accessible to millions.",
+    "link": "https://example.com/news/affordable-smartphone",
     "image": null
   },
   {
-    "title": "Invest India: Startup ecosystem updates",
-    "description": "New unicorns and sectoral policy moves supporting innovation.",
-    "link": "https://www.investindia.gov.in/",
+    "title": "Historic Temple Restoration Completed",
+    "description": "After years of meticulous work, the restoration of a 12th‑century temple has been completed. The site, a UNESCO World Heritage candidate, will reopen to pilgrims next month.",
+    "link": "https://example.com/news/temple-restoration",
     "image": null
   },
   {
-    "title": "Digital India milestones",
-    "description": "UPI, ONDC and India Stack adoption continue to expand.",
-    "link": "https://www.digitalindia.gov.in/",
+    "title": "Local Startup Secures Major Funding Round",
+    "description": "In a sign of growing investor confidence, a Bengaluru‑based fintech startup closed a $50 million funding round led by global venture capital firms. The company plans rapid expansion.",
+    "link": "https://example.com/news/startup-funding",
+    "image": null
+  },
+  {
+    "title": "Monsoon Brings Relief and Challenges",
+    "description": "Heavy rains have brought much‑needed relief to drought‑hit regions, but flooding has displaced thousands in low‑lying areas. Relief teams are working around the clock to provide aid.",
+    "link": "https://example.com/news/monsoon-relief",
+    "image": null
+  },
+  {
+    "title": "Cricket Team Clinches Series Victory",
+    "description": "The national cricket team delivered a stunning performance to win the series against their arch‑rivals. Celebrations erupted across the country as fans cheered their heroes.",
+    "link": "https://example.com/news/cricket-series-victory",
     "image": null
   }
 ]
