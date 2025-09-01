@@ -232,6 +232,33 @@ ul {
     gap: 2rem;
 }
 
+/* "See more" link styling */
+.see-more {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    color: var(--primary);
+    font-weight: 400;
+}
+.see-more:hover {
+    text-decoration: underline;
+}
+
+/* Dedicated news feed page */
+.news-feed-page {
+    padding: 4rem 0;
+    background: var(--light-bg);
+}
+.news-feed-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Ensure cards on news feed page use full width */
+.news-feed-grid .post {
+    width: 100%;
+}
+
 /* Loading indicator shown while more stories are being appended */
 .loading-indicator {
     text-align: center;
@@ -485,4 +512,57 @@ footer {
 }
 .static-page li {
     margin-bottom: 0.5rem;
+}
+
+/* Opinion form and See More button styling */
+.opinion-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.opinion-form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.opinion-form button {
+    align-self: flex-start;
+    background-color: var(--primary-color, #c03636);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.opinion-form button:hover {
+    background-color: #b33030;
+}
+
+.see-more-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.see-more-btn {
+    display: inline-block;
+    background: var(--primary-color, #c03636);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s ease-in-out;
+}
+
+.see-more-btn:hover {
+    background: #b33030;
 }

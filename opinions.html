@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News | Bharat Chronicle</title>
+    <title>Share Your Opinion | Bharat Chronicle</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-eNjh2xV1nNwR7vKafirbk5n24KpD5CKzzZof5DlG5AEnhNXcA3q0kYHW9Izm06kVfxczXKAvQSnAeG38fHkeXA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="style.css" rel="stylesheet">
-
     <!-- PWA manifest and theme color -->
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#c03636">
@@ -22,15 +21,14 @@
                 <span class="logo-icon">BC</span>
                 <span class="brand-name">Bharat Chronicle</span>
             </div>
-            <!-- Checkbox hack for responsive nav toggle -->
             <input type="checkbox" id="nav-toggle" class="nav-toggle">
             <label for="nav-toggle" class="nav-toggle-label">
                 <span></span>
             </label>
             <ul class="nav-menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="news.html" class="active">News</a></li>
-                <li><a href="opinions.html">Opinions</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="opinions.html" class="active">Opinions</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="privacy.html">Privacy</a></li>
                 <li><a href="terms.html">Terms</a></li>
@@ -39,10 +37,17 @@
     </header>
 
     <main>
-        <section class="news-feed-page">
+        <section class="static-page">
             <div class="container">
-                <h2>All News</h2>
-                <div id="news-feed" class="news-feed-grid"></div>
+                <h1>Share Your Opinion</h1>
+                <p>
+                    We value the voices of our readers. Use the form below to share your thoughts,
+                    reactions or story ideas with the Bharat Chronicle editorial team.
+                </p>
+                <form id="opinion-form" class="opinion-form">
+                    <textarea id="opinion-message" rows="6" placeholder="Type your message here..." required></textarea>
+                    <button type="submit" class="btn primary-btn">Send</button>
+                </form>
             </div>
         </section>
     </main>
@@ -63,6 +68,21 @@
         </div>
     </footer>
 
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
+    <script>
+        // Handle opinion form submission. Sends an email via mailto: link.
+        document.getElementById('opinion-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const message = document.getElementById('opinion-message').value.trim();
+            if (!message) {
+                return;
+            }
+            // TODO: Replace with your own email address to receive messages
+            const emailAddress = 'owner@example.com';
+            const subject = encodeURIComponent('Opinion from Bharat Chronicle visitor');
+            const body = encodeURIComponent(message);
+            window.location.href = `mailto:${emailAddress}?subject=${subject}&body=${body}`;
+        });
+    </script>
 </body>
 </html>

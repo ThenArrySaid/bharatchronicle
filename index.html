@@ -9,6 +9,10 @@
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-eNjh2xV1nNwR7vKafirbk5n24KpD5CKzzZof5DlG5AEnhNXcA3q0kYHW9Izm06kVfxczXKAvQSnAeG38fHkeXA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="style.css" rel="stylesheet">
+
+    <!-- PWA manifest and theme color -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#c03636">
 </head>
 <body>
     <!-- Header with navigation and hero section -->
@@ -26,7 +30,7 @@
             <ul class="nav-menu">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="#news">News</a></li>
-                <li><a href="#opinions">Opinions</a></li>
+                <li><a href="opinions.html">Opinions</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="privacy.html">Privacy</a></li>
                 <li><a href="terms.html">Terms</a></li>
@@ -60,7 +64,7 @@
              a "river of news" experience inspired by modern news portals. -->
         <section id="news" class="featured-posts">
             <div class="container">
-<h2>Latest Stories <a href="news.html" class="see-more">(See more)</a></h2>
+                <h2>Latest Stories <a href="news.html" class="see-more">(See more)</a></h2>
                 <!-- The posts-grid will be filled dynamically. Initially empty. -->
                 <div class="posts-grid" id="news-stream"></div>
                 <!-- Optional loading indicator -->
@@ -75,7 +79,7 @@
             <div class="container cta-container">
                 <h2>Join the Conversation</h2>
                 <p>Have an opinion, meme or hot take? Submit your own stories or share your thoughts with our community.</p>
-                <a href="#contact" class="btn secondary-btn">Share Your Opinion</a>
+                <a href="opinions.html" class="btn secondary-btn">Share Your Opinion</a>
             </div>
         </section>
 

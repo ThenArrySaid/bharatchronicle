@@ -14,7 +14,14 @@ the site—simply unpack the ZIP archive and open `index.html` in your browser.
    recreating the infinite stream popularised by modern news portals.  Ads
    placeholders are inserted after every four stories.
 
-2. **Automated Content Generation**  
+2. **Inshorts‑style Expanded Feed**  
+   On the home page, a “See more” link appears next to the **Latest Stories**
+   heading.  Clicking this link takes readers to `news.html`, a dedicated
+   page modelled after the Inshorts app.  The page displays an endless
+   scroller of news cards, each with a headline, thumbnail and short
+   summary.  Selecting a card opens the original article in a new tab.
+
+3. **Automated Content Generation**  
    To keep your site up to date without writing code, a helper script
    `fetch_news.py` is included.  Run the script on your own computer with
    network access to download headlines from any RSS or Atom feed and write
@@ -29,19 +36,19 @@ the site—simply unpack the ZIP archive and open `index.html` in your browser.
    needed.  Note that the workflow only works when the repository has
    permission to push changes (for example, on your own fork).
 
-3. **Adsense Ready**  
+4. **Adsense Ready**  
    Ad slots are marked in the feed with an `Advertisement` placeholder.  Once
    your Google AdSense account is approved, replace these placeholders with
    the `<script>` and `<ins>` tags provided by AdSense to start earning
    revenue.  A dashed border highlights the ad area until then.
 
-4. **Newsletter Subscription**  
+5. **Newsletter Subscription**  
    The site includes a newsletter signup form.  Currently the form displays a
    friendly thank‑you message upon submission.  To collect real emails,
    integrate with a mailing list provider such as [Mailchimp], [Brevo] or
    [MailerLite] by replacing the form’s `action` attribute and hidden fields.
 
-5. **Editorial Standards & Legal Pages**
+6. **Editorial Standards & Legal Pages**
    A new “Our Commitment to Integrity” section outlines Bharat Chronicle’s
    editorial values—accuracy, fairness and a pro‑India perspective.  This
    message helps readers understand your mission.  The repository also
