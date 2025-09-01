@@ -1,142 +1,177 @@
 #!/usr/bin/env python3
 """
-fetch_news.py
-----------------
-This utility script generates a `news.json` file from any RSS feed.  It is designed
-to automate the content for the Bharat Chronicle website.  You can run this
-script periodically on your own computer or server to refresh the news on your
-site.  The resulting JSON file should be placed in the `data` directory so
-that `script.js` can load it.
+Fetch Indian news RSS/Atom feeds and write a compact JSON used by the site.
 
-Usage:
-    python fetch_news.py --feed_url https://feeds.bbci.co.uk/news/world/rss.xml --limit 20
-
-Requirements:
-    - Python 3.7 or later
-    - feedparser package (install via `pip install feedparser`)
-
-Note:
-    Because this environment has restricted network access, the script cannot be
-    executed here.  You should run it on your own machine with internet
-    connectivity to fetch real news feeds.
+Fixes:
+- Normalizes ALL dates to timezone-aware UTC so sorting never crashes
+  (no more: "can't compare offset-naive and offset-aware datetimes")
+- Grabs thumbnails when available (media:content / enclosure)
+- Produces short summaries (≈ 60–90 words) for Inshorts-style cards
 """
 
-import argparse
+from __future__ import annotations
 import json
-from datetime import datetime
+import re
+from dataclasses import dataclass, asdict
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+from pathlib import Path
+from typing import Optional, List
+import feedparser  # installed in workflow
+import requests    # installed in workflow
 
-try:
-    import feedparser
-except ImportError as e:
-    raise SystemExit(
-        "The feedparser library is required to run this script. "
-        "Install it using `pip install feedparser` and try again."
-    )
+# ---------- Config ----------
+OUTPUT = Path("data/news.json")
+MAX_ITEMS = 60
 
+# Curated, mainstream, India-focused sources (you can edit freely)
+FEEDS = [
+    "https://feeds.feedburner.com/ndtvnews-top-stories",
+    "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+    "https://indianexpress.com/section/india/feed/",
+    "https://www.thehindu.com/news/national/feeder/default.rss",
+]
 
-def fetch_feed(url: str, limit: int = 20):
-    """Fetch and parse an RSS/Atom feed, returning a list of news items."""
-    feed = feedparser.parse(url)
-    items = []
-    for entry in feed.entries[:limit]:
-        # Construct a short description from the summary or description field
-        summary = entry.get('summary') or entry.get('description') or ''
-        # Trim summary to about 200 characters
-        plain_summary = summary.replace('\n', ' ').replace('\r', ' ').strip()
-        if len(plain_summary) > 200:
-            plain_summary = plain_summary[:197] + '...'
+# ---------- Helpers ----------
 
-        item = {
-            "title": entry.get('title', 'Untitled'),
-            "description": plain_summary,
-            "link": entry.get('link', '#'),
-            "pubDate": entry.get('published', datetime.utcnow().isoformat()),
-            "image": None,
-        }
-        # Attempt to extract an image if provided
-        if 'media_thumbnail' in entry:
-            item['image'] = entry.media_thumbnail[0]['url']
-        elif 'media_content' in entry:
-            item['image'] = entry.media_content[0]['url']
+@dataclass
+class NewsItem:
+    title: str
+    description: str
+    link: str
+    image: Optional[str]
+    date: datetime  # timezone-aware UTC
+
+    def to_public(self) -> dict:
+        # Strip the 'date' from the JSON we serve (site doesn’t need it)
+        d = asdict(self)
+        d.pop("date", None)
+        return d
+
+def cleanse_html(text: str) -> str:
+    if not text:
+        return ""
+    text = re.sub(r"<[^>]+>", " ", text)         # remove tags
+    text = re.sub(r"&[a-zA-Z#0-9]+;", " ", text) # entities → space
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+def summarize(text: str, max_words: int = 90) -> str:
+    words = cleanse_html(text).split()
+    if len(words) <= max_words:
+        return " ".join(words)
+    return " ".join(words[:max_words]) + "…"
+
+def to_utc(dt: Optional[datetime]) -> datetime:
+    """
+    Normalize any datetime to timezone-aware UTC.
+    - None  -> minimal UTC sentinel
+    - naive -> set tzinfo=UTC
+    - aware -> convert to UTC
+    """
+    if dt is None:
+        return datetime.min.replace(tzinfo=timezone.utc)
+    if dt.tzinfo is None:
+        return dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc)
+
+def parse_entry_date(entry) -> datetime:
+    # Try structured date first (published_parsed / updated_parsed)
+    for key in ("published", "updated", "created"):
+        val = entry.get(key)
+        if val:
+            try:
+                return to_utc(parsedate_to_datetime(val))
+            except Exception:
+                pass
+    # feedparser may also expose *_parsed as time.struct_time; fall back:
+    for key in ("published_parsed", "updated_parsed", "created_parsed"):
+        val = entry.get(key)
+        if val:
+            try:
+                # Convert struct_time to datetime (naive)
+                dt = datetime(*val[:6])
+                return to_utc(dt)
+            except Exception:
+                pass
+    return to_utc(None)
+
+def extract_image(entry) -> Optional[str]:
+    # media:content / enclosure
+    media = entry.get("media_content") or entry.get("media_thumbnail")
+    if isinstance(media, list) and media:
+        url = media[0].get("url")
+        if url:
+            return url
+    if "links" in entry:
+        for l in entry["links"]:
+            if l.get("rel") in ("enclosure", "thumbnail") and l.get("type", "").startswith(("image/", "img/")):
+                return l.get("href")
+    # As a last (best-effort) option, try OpenGraph image from the article:
+    url = entry.get("link")
+    if not url:
+        return None
+    try:
+        r = requests.get(url, timeout=5)
+        if r.ok:
+            m = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', r.text, re.I)
+            if m:
+                return m.group(1)
+    except Exception:
+        pass
+    return None
+
+# ---------- Main ----------
+
+def fetch_feed(url: str) -> List[NewsItem]:
+    parsed = feedparser.parse(url)
+    items: List[NewsItem] = []
+    for e in parsed.entries:
+        title = cleanse_html(e.get("title", "")).strip()
+        link = e.get("link") or ""
+        if not (title and link):
+            continue
+        desc_source = e.get("summary") or e.get("description") or ""
+        item = NewsItem(
+            title=title,
+            description=summarize(desc_source),
+            link=link,
+            image=extract_image(e),
+            date=parse_entry_date(e),
+        )
         items.append(item)
     return items
 
-
 def main():
-    """
-    Entry point for the feed generation script.
-
-    This function accepts either a single ``--feed_url`` argument or a comma‑separated
-    list of ``--feed_urls``.  If neither is provided, it falls back to a preset
-    collection of pro‑India news RSS feeds.  The script will download items
-    from each specified feed, merge them together, and trim the list to the
-    requested limit.  The merged items are then written to the output JSON file.
-    """
-    parser = argparse.ArgumentParser(
-        description="Generate news.json from one or more RSS/Atom feeds"
-    )
-    parser.add_argument(
-        '--feed_url',
-        help='Single URL of an RSS/Atom feed to fetch (overrides the default list)'
-    )
-    parser.add_argument(
-        '--feed_urls',
-        help='Comma‑separated list of RSS/Atom feed URLs to fetch'
-    )
-    parser.add_argument(
-        '--output',
-        default='data/news.json',
-        help='Output JSON file path'
-    )
-    parser.add_argument(
-        '--limit',
-        type=int,
-        default=20,
-        help='Maximum number of feed items to include'
-    )
-    args = parser.parse_args()
-
-    # Determine the list of feeds to use
-    feeds = []
-    if args.feed_url:
-        feeds = [args.feed_url.strip()]
-    elif args.feed_urls:
-        feeds = [u.strip() for u in args.feed_urls.split(',') if u.strip()]
-    else:
-        # Default pro‑India feed list. These sources were chosen for their
-        # relevance to Indian news and culture. Feel free to adjust this list
-        # to suit your editorial focus.  If you add or remove feeds, make sure
-        # they allow redistribution of their content.
-        feeds = [
-            'https://feeds.feedburner.com/ndtvnews-india-news',        # NDTV India news
-            'https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms',  # Times of India top stories
-            'https://indianexpress.com/feed/',                          # Indian Express latest news
-            'https://www.thehindu.com/news/national/?service=rss',      # The Hindu national news
-        ]
-
-    all_items = []
-    for url in feeds:
+    all_items: List[NewsItem] = []
+    for f in FEEDS:
         try:
-            items = fetch_feed(url, args.limit)
-            all_items.extend(items)
-        except Exception as exc:  # catch any feed parsing errors
-            print(f"Warning: failed to fetch feed {url}: {exc}")
+            all_items.extend(fetch_feed(f))
+        except Exception as ex:
+            print(f"[WARN] Failed {f}: {ex}")
 
-    # Sort combined items by publication date descending (newest first)
-    def parse_date(item):
-        try:
-            return datetime.fromisoformat(item['pubDate'])
-        except Exception:
-            return datetime.utcnow()
-    all_items.sort(key=parse_date, reverse=True)
+    # Normalize and sort (dates are already UTC-aware)
+    all_items.sort(key=lambda x: x.date, reverse=True)
 
-    # Trim to the requested limit
-    trimmed = all_items[: args.limit]
+    # De-duplicate by link
+    seen = set()
+    deduped: List[NewsItem] = []
+    for it in all_items:
+        if it.link in seen:
+            continue
+        seen.add(it.link)
+        deduped.append(it)
+        if len(deduped) >= MAX_ITEMS:
+            break
 
-    with open(args.output, 'w', encoding='utf-8') as fp:
-        json.dump(trimmed, fp, indent=2, ensure_ascii=False)
-    print(f"Wrote {len(trimmed)} items to {args.output}")
+    # Ensure output dir exists
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 
+    # Write public JSON (without the internal date field)
+    with OUTPUT.open("w", encoding="utf-8") as f:
+        json.dump([it.to_public() for it in deduped], f, ensure_ascii=False, indent=2)
 
-if __name__ == '__main__':
+    print(f"Wrote {len(deduped)} items → {OUTPUT}")
+
+if __name__ == "__main__":
     main()
