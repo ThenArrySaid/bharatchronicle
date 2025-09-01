@@ -1,0 +1,33 @@
+name: Update News Feed
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:       # allow manual run
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install feedparser
+        run: pip install feedparser requests
+
+      - name: Run fetch_news script
+        run: python fetch_news.py
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add data/news.json
+          git commit -m "Auto-update news feed" || echo "No changes to commit"
+          git push
