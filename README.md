@@ -21,6 +21,14 @@ the site—simply unpack the ZIP archive and open `index.html` in your browser.
    them into `data/news.json`.  You can schedule the script (e.g. via cron on
    Linux or Task Scheduler on Windows) to refresh the news automatically.
 
+   If you host your site on GitHub, a ready‑to‑use GitHub Actions workflow
+   (`.github/workflows/news_update.yml`) is provided.  The workflow runs
+   every six hours, executes `fetch_news.py` using a curated list of
+   pro‑India feeds, and commits the updated `news.json` back to the
+   repository.  You can trigger it manually or adjust the schedule as
+   needed.  Note that the workflow only works when the repository has
+   permission to push changes (for example, on your own fork).
+
 3. **Adsense Ready**  
    Ad slots are marked in the feed with an `Advertisement` placeholder.  Once
    your Google AdSense account is approved, replace these placeholders with
@@ -32,6 +40,15 @@ the site—simply unpack the ZIP archive and open `index.html` in your browser.
    friendly thank‑you message upon submission.  To collect real emails,
    integrate with a mailing list provider such as [Mailchimp], [Brevo] or
    [MailerLite] by replacing the form’s `action` attribute and hidden fields.
+
+5. **Editorial Standards & Legal Pages**
+   A new “Our Commitment to Integrity” section outlines Bharat Chronicle’s
+   editorial values—accuracy, fairness and a pro‑India perspective.  This
+   message helps readers understand your mission.  The repository also
+   includes dedicated pages for **About**, **Privacy Policy** and **Terms &
+   Conditions** (`about.html`, `privacy.html` and `terms.html`) so you can
+   comply with legal requirements and give visitors more context about your
+   publication.
 
 ## How to Refresh the News
 
@@ -52,6 +69,13 @@ the site—simply unpack the ZIP archive and open `index.html` in your browser.
    display the latest headlines.
 
 3. To automate updates, schedule the script to run at regular intervals.
+
+   Alternatively, if you’re using GitHub to host your site, enable the
+   provided GitHub Actions workflow.  Navigate to the **Actions** tab in
+   your repository and enable workflows.  The `news_update` workflow will
+   fetch fresh news every six hours and push changes automatically.  You can
+   customise the cron schedule or provide your own feed list via workflow
+   inputs.
 
 ## Customising the Site
 

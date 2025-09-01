@@ -63,16 +63,79 @@ def fetch_feed(url: str, limit: int = 20):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate news.json from an RSS feed")
-    parser.add_argument('--feed_url', required=True, help='URL of the RSS/Atom feed to fetch')
-    parser.add_argument('--output', default='data/news.json', help='Output JSON file path')
-    parser.add_argument('--limit', type=int, default=20, help='Maximum number of feed items to include')
+    """
+    Entry point for the feed generation script.
+
+    This function accepts either a single ``--feed_url`` argument or a comma‑separated
+    list of ``--feed_urls``.  If neither is provided, it falls back to a preset
+    collection of pro‑India news RSS feeds.  The script will download items
+    from each specified feed, merge them together, and trim the list to the
+    requested limit.  The merged items are then written to the output JSON file.
+    """
+    parser = argparse.ArgumentParser(
+        description="Generate news.json from one or more RSS/Atom feeds"
+    )
+    parser.add_argument(
+        '--feed_url',
+        help='Single URL of an RSS/Atom feed to fetch (overrides the default list)'
+    )
+    parser.add_argument(
+        '--feed_urls',
+        help='Comma‑separated list of RSS/Atom feed URLs to fetch'
+    )
+    parser.add_argument(
+        '--output',
+        default='data/news.json',
+        help='Output JSON file path'
+    )
+    parser.add_argument(
+        '--limit',
+        type=int,
+        default=20,
+        help='Maximum number of feed items to include'
+    )
     args = parser.parse_args()
 
-    items = fetch_feed(args.feed_url, args.limit)
+    # Determine the list of feeds to use
+    feeds = []
+    if args.feed_url:
+        feeds = [args.feed_url.strip()]
+    elif args.feed_urls:
+        feeds = [u.strip() for u in args.feed_urls.split(',') if u.strip()]
+    else:
+        # Default pro‑India feed list. These sources were chosen for their
+        # relevance to Indian news and culture. Feel free to adjust this list
+        # to suit your editorial focus.  If you add or remove feeds, make sure
+        # they allow redistribution of their content.
+        feeds = [
+            'https://feeds.feedburner.com/ndtvnews-india-news',        # NDTV India news
+            'https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms',  # Times of India top stories
+            'https://indianexpress.com/feed/',                          # Indian Express latest news
+            'https://www.thehindu.com/news/national/?service=rss',      # The Hindu national news
+        ]
+
+    all_items = []
+    for url in feeds:
+        try:
+            items = fetch_feed(url, args.limit)
+            all_items.extend(items)
+        except Exception as exc:  # catch any feed parsing errors
+            print(f"Warning: failed to fetch feed {url}: {exc}")
+
+    # Sort combined items by publication date descending (newest first)
+    def parse_date(item):
+        try:
+            return datetime.fromisoformat(item['pubDate'])
+        except Exception:
+            return datetime.utcnow()
+    all_items.sort(key=parse_date, reverse=True)
+
+    # Trim to the requested limit
+    trimmed = all_items[: args.limit]
+
     with open(args.output, 'w', encoding='utf-8') as fp:
-        json.dump(items, fp, indent=2, ensure_ascii=False)
-    print(f"Wrote {len(items)} items to {args.output}")
+        json.dump(trimmed, fp, indent=2, ensure_ascii=False)
+    print(f"Wrote {len(trimmed)} items to {args.output}")
 
 
 if __name__ == '__main__':
