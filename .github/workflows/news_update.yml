@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+       - name: Install dependencies
+          run: |
+                pip install feedparser requests
+
+
       - name: Checkout repo
         uses: actions/checkout@v3
 
