@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat Chronicle</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-eNjh2xV1nNwR7vKafirbk5n24KpD5CKzzZof5DlG5AEnhNXcA3q0kYHW9Izm06kVfxczXKAvQSnAeG38fHkeXA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with navigation and hero section -->
+    <header>
+        <nav class="navbar container">
+            <div class="logo">
+                <span class="logo-icon">BC</span>
+                <span class="brand-name">Bharat Chronicle</span>
+            </div>
+            <!-- Checkbox hack for responsive nav toggle -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#opinions">Opinions</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero" style="background-image: url('images/hero.png');">
+            <div class="hero-overlay container">
+                <h1>Sarcasm. News. Opinions.</h1>
+                <p>Bold takes and witty fact‑checks from the heart of Bharat.</p>
+                <a href="https://www.instagram.com/bharatchronicle/" target="_blank" class="btn primary-btn">
+                    <i class="fab fa-instagram"></i> Follow us on Instagram
+                </a>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <!-- About section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Bharat Chronicle</h2>
+                <p>Bharat Chronicle brings you thought‑provoking news, bold opinions and satire that embrace the spirit of India.  
+                We deliver stories that matter with a twist of humour—because life is too short to be boring. Join our journey as we deconstruct headlines, celebrate culture and challenge the status quo.</p>
+            </div>
+        </section>
+
+        <!-- Featured posts grid -->
+        <!-- Dynamic news feed section. The posts-grid below is populated via script.js
+             using data from the data/news.json file. It supports infinite scroll to mimic
+             a "river of news" experience inspired by modern news portals. -->
+        <section id="news" class="featured-posts">
+            <div class="container">
+                <h2>Latest Stories</h2>
+                <!-- The posts-grid will be filled dynamically. Initially empty. -->
+                <div class="posts-grid" id="news-stream"></div>
+                <!-- Optional loading indicator -->
+                <div id="loading-indicator" class="loading-indicator" hidden>
+                    <span>Loading more stories…</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Opinions / call to action section -->
+        <section id="opinions" class="cta-section">
+            <div class="container cta-container">
+                <h2>Join the Conversation</h2>
+                <p>Have an opinion, meme or hot take? Submit your own stories or share your thoughts with our community.</p>
+                <a href="#contact" class="btn secondary-btn">Share Your Opinion</a>
+            </div>
+        </section>
+
+        <!-- Newsletter subscription -->
+        <section class="newsletter-section">
+            <div class="container newsletter-container">
+                <h2>Stay Informed</h2>
+                <p>Subscribe to our newsletter to receive the latest stories, opinions and memes straight to your inbox.</p>
+                <form id="newsletter-form" class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required aria-label="Email">
+                    <button type="submit" class="btn secondary-btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo-icon">BC</span>
+                <span class="brand-name">Bharat Chronicle</span>
+            </div>
+            <p>&copy; <span id="year"></span> Bharat Chronicle. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://www.instagram.com/bharatchronicle/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" target="_blank" rel="noopener"><i class="fab fa-x-twitter"></i></a></li>
+                <li><a href="#" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+
+    <!-- Inline fallback data for the dynamic news feed.
+         When the page is opened directly via the file:// scheme, modern browsers
+         prevent JavaScript from loading local files via fetch() due to
+         cross‑origin restrictions.  To that end we embed a copy of the
+         news.json file below.  The script will use this data if it
+         cannot fetch from the data directory.  To update the feed, either
+         serve this site via a local webserver (so fetch works) or
+         replace the JSON below with fresh content generated by fetch_news.py.
+    -->
+    <script id="news-data" type="application/json">
+    [
+      {
+        "title": "Government Unveils New Growth Plan",
+        "description": "India's government has announced a sweeping economic stimulus package aimed at boosting manufacturing and infrastructure. Analysts say the plan could add billions to GDP over the next decade.",
+        "link": "https://example.com/news/government-growth-plan",
+        "image": null
+      },
+      {
+        "title": "High Court Sets Precedent in Landmark Case",
+        "description": "In a unanimous ruling, the Supreme Court delivered a historic verdict that redefines citizens' rights and will have far‑reaching implications for future litigation.",
+        "link": "https://example.com/news/supreme-court-ruling",
+        "image": null
+      },
+      {
+        "title": "Iconic Actor Announces Retirement",
+        "description": "Bollywood legend Rajesh Kapoor surprised fans by announcing his retirement from cinema after a career spanning four decades. Tributes have poured in from across the industry.",
+        "link": "https://example.com/news/bollywood-retirement",
+        "image": null
+      },
+      {
+        "title": "Tech Giant Launches Affordable Smartphone",
+        "description": "Bharat's leading tech company unveiled a new smartphone that promises top‑tier features at a fraction of the cost. The device aims to make cutting‑edge technology accessible to millions.",
+        "link": "https://example.com/news/affordable-smartphone",
+        "image": null
+      },
+      {
+        "title": "Historic Temple Restoration Completed",
+        "description": "After years of meticulous work, the restoration of a 12th‑century temple has been completed. The site, a UNESCO World Heritage candidate, will reopen to pilgrims next month.",
+        "link": "https://example.com/news/temple-restoration",
+        "image": null
+      },
+      {
+        "title": "Local Startup Secures Major Funding Round",
+        "description": "In a sign of growing investor confidence, a Bengaluru‑based fintech startup closed a $50 million funding round led by global venture capital firms. The company plans rapid expansion.",
+        "link": "https://example.com/news/startup-funding",
+        "image": null
+      },
+      {
+        "title": "Monsoon Brings Relief and Challenges",
+        "description": "Heavy rains have brought much‑needed relief to drought‑hit regions, but flooding has displaced thousands in low‑lying areas. Relief teams are working around the clock to provide aid.",
+        "link": "https://example.com/news/monsoon-relief",
+        "image": null
+      },
+      {
+        "title": "Cricket Team Clinches Series Victory",
+        "description": "The national cricket team delivered a stunning performance to win the series against their arch‑rivals. Celebrations erupted across the country as fans cheered their heroes.",
+        "link": "https://example.com/news/cricket-series-victory",
+        "image": null
+      }
+    ]
+    </script>
+</body>
+</html>
