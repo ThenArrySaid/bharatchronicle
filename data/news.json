@@ -1,17 +1,619 @@
 [
   {
-    "title": "Police trace school teacher who went missing from Kozhikode",
-    "link": "https://www.thehindu.com/news/national/kerala/police-trace-school-teacher-who-went-missing-from-kozhikode/article71599348.ece",
-    "description": "She was reportedly staying in a rented house along with a man posing as husband and wife",
-    "image": null,
-    "date": "2026-10-18T10:29:16+00:00"
+    "title": "Heavy rain floods roads, low-lying areas in Coimbatore",
+    "link": "https://www.thehindu.com/news/cities/Coimbatore/heavy-rain-floods-roads-low-lying-areas-in-coimbatore/article71600643.ece",
+    "description": "",
+    "image": "https://th-i.thgim.com/public/incoming/1l5m31/article71600667.ece/alternates/LANDSCAPE_1200/2085_18_10_2026_20_24_32_1_IMG_20261018_WA0035.JPG",
+    "date": "2026-10-18T15:32:11+00:00"
   },
   {
-    "title": "M. Karunanidhi Ph.D Studentship and postdoctoral research programme established at University of Cambridge",
-    "link": "https://www.thehindu.com/news/national/tamil-nadu/m-karunanidhi-phd-studentship-and-postdoctoral-research-programme-established-at-university-of-cambridge/article71593614.ece",
-    "description": "The programme is being funded by Chennai-based entrepreneur Sabarisan Vedamurthy",
+    "title": "Bodies of three Malayalis killed in Germany building fire to reach Keralam on October 20",
+    "link": "https://www.thehindu.com/news/national/kerala/bodies-of-three-malayalis-killed-in-germany-building-fire-to-reach-keralam-on-october-20/article71600566.ece",
+    "description": "Investigations are under way regarding the arson attack on the apartment building in the city of Bochum; preliminary findings indicate that the tragedy stemmed from a personal enmity between the flat owner and a Romanian national who is currently in police custody",
+    "image": "https://th-i.thgim.com/public/incoming/9j76le/article71600665.ece/alternates/LANDSCAPE_1200/Fire%20-%20special%20arrangement.jpeg",
+    "date": "2026-10-18T15:32:06+00:00"
+  },
+  {
+    "title": "Actor Tiger Shroff escapes firing attempt in Mumbai’s Juhu; manhunt launched for perpetrators",
+    "link": "https://www.thehindu.com/news/cities/mumbai/tiger-shroff-firing-in-mumbai-juhu-october-18-2026/article71600449.ece",
+    "description": "According to a viral social media post, the Lawrence Bishnoi gang has claimed responsibility for the attack, but police are yet to verify its authenticity",
+    "image": "https://th-i.thgim.com/public/incoming/dd5nv7/article71600460.ece/alternates/LANDSCAPE_1200/PTI06_28_2026_000496B.jpg",
+    "date": "2026-10-18T15:31:53+00:00"
+  },
+  {
+    "title": "Heavy overnight rain batters Chennai as Northeast monsoon gets active in Tamil Nadu",
+    "link": "https://www.thehindu.com/news/cities/chennai/heavy-overnight-rain-batters-chennai-as-northeast-monsoon-gets-active-in-tamil-nadu/article71600273.ece",
+    "description": "According to the Greater Chennai Corporation’s data, Parrys recorded the maximum of 36 cm of rain, followed by Kathivakkam with 34.4 cm.  The government machinery worked through the night to clear the stagnant water",
+    "image": "https://th-i.thgim.com/public/incoming/p7fafj/article71600431.ece/alternates/LANDSCAPE_1200/DSC_7321.JPG",
+    "date": "2026-10-18T15:31:31+00:00"
+  },
+  {
+    "title": "IIT-B student death case: Police detain Sahil Wakode’s parents, clear protest site",
+    "link": "https://www.thehindu.com/news/cities/mumbai/iit-b-student-death-case-police-detain-sahil-wakodes-parents-clear-protest-site/article71600309.ece",
+    "description": "Mumbai police takes 16 more students into custody and demolishes the protest site.",
+    "image": "https://th-i.thgim.com/public/incoming/137yhu/article71600666.ece/alternates/LANDSCAPE_1200/PTI10_18_2026_000419B.jpg",
+    "date": "2026-10-18T15:30:15+00:00"
+  },
+  {
+    "title": "Telangana’s El Niño contingency plan for uninterrupted water supply in rural areas",
+    "link": "https://www.thehindu.com/news/national/telangana/telanganas-el-nino-contingency-plan-for-uninterrupted-water-supply-in-rural-areas/article71595939.ece",
+    "description": "Telangana Rural Development Rural Water Supply Minister issues directions to complete borewell recharge structures, avoid damages to water pipelines during road works and hold awareness programmes on short-duration crops",
+    "image": "https://th-i.thgim.com/public/incoming/kcs30k/article71596130.ece/alternates/LANDSCAPE_1200/MEMAU_9_5_2026_17_35_2_4_7509.JPG",
+    "date": "2026-10-18T15:29:50+00:00"
+  },
+  {
+    "title": "Karnataka extends ration card e-KYC deadline to November 10",
+    "link": "https://www.thehindu.com/news/national/karnataka/karnataka-extends-ration-card-e-kyc-deadline-to-november-10/article71600311.ece",
+    "description": "",
+    "image": "https://th-i.thgim.com/public/incoming/nlbxom/article71600663.ece/alternates/LANDSCAPE_1200/IMG_BL13041_Banking_Seco_2_1_DDFRAL78.jpg",
+    "date": "2026-10-18T15:28:58+00:00"
+  },
+  {
+    "title": "Chemical-laden truck catches fire on NICE Road, traffic grinds to a halt",
+    "link": "https://www.thehindu.com/news/cities/bangalore/chemical-laden-truck-catches-fire-on-nice-road-traffic-grinds-to-a-halt/article71599632.ece",
+    "description": "The incident occurred around 12.30 p.m. when the driver allegedly lost control of the vehicle, reportedly due to overspeeding",
+    "image": "https://th-i.thgim.com/public/incoming/8ceqol/article71600091.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-18%20at%2015.12.17A.JPEG",
+    "date": "2026-10-18T15:28:52+00:00"
+  },
+  {
+    "title": "Heavy rain causes flooding in a few localities in west Velachery",
+    "link": "https://www.thehindu.com/news/cities/chennai/few-localities-in-west-velachery-flooded-due-to-heavy-rain/article71599403.ece",
+    "description": "The residents of AGS Colony, Saraswathi nagar, Bhuvaneshwari Nagar, Aandal nagar and Mohanapuri, suffered flooding like situation because of the slow discharge of rainwater in the Veerangal Odai, which is ultimately linked to the Pallikaranai Marshland",
+    "image": "https://th-i.thgim.com/public/news/national/kfx4gz/article71599448.ece/alternates/LANDSCAPE_1200/Velachery.jpg",
+    "date": "2026-10-18T15:28:21+00:00"
+  },
+  {
+    "title": "NDA’s ticket delay triggers multiple nominations by aspirants in GVMC polls",
+    "link": "https://www.thehindu.com/news/cities/Visakhapatnam/ndas-ticket-delay-triggers-multiple-nominations-by-aspirants-in-gvmc-polls/article71599729.ece",
+    "description": "",
     "image": null,
-    "date": "2026-10-18T10:27:16+00:00"
+    "date": "2026-10-18T15:27:39+00:00"
+  },
+  {
+    "title": "Yediyurappa campaigns in Davangere for BJP nominee in Council polls",
+    "link": "https://www.thehindu.com/news/national/karnataka/yediyurappa-campaigns-in-davangere-for-bjp-nominee-in-council-polls/article71600490.ece",
+    "description": "The veteran BJP leader expresses the confidence that party candidate K.M. Suresh will win the Council elections by a huge margin",
+    "image": "https://th-i.thgim.com/public/incoming/ktrw45/article71600647.ece/alternates/LANDSCAPE_1200/10258_1_9_2026_17_37_52_3_BJP_PADAYATRA_3.JPEG",
+    "date": "2026-10-18T15:27:16+00:00"
+  },
+  {
+    "title": "Heavy rain uproots trees in over 10 places in Chennai",
+    "link": "https://www.thehindu.com/news/cities/chennai/heavy-rain-uproots-trees-in-over-10-places-in-chennai/article71599954.ece",
+    "description": "A senior officer said several trees had fallen in more than 10 locations, including Tiruvottiyur, T. Nagar, Ashok Bagar, Guindy, and Velachery, damaging a few houses and disrupting traffic",
+    "image": "https://th-i.thgim.com/public/news/national/tamil-nadu/yk5nkh/article71600170.ece/alternates/LANDSCAPE_1200/tree%20velachery.jpeg",
+    "date": "2026-10-18T15:26:02+00:00"
+  },
+  {
+    "title": "HMWSSB to launch green water tanker services from November 1",
+    "link": "https://www.thehindu.com/news/national/telangana/hmwssb-to-launch-green-water-tanker-services-from-november-1/article71600379.ece",
+    "description": "Private STP registrations extended till Oct 25",
+    "image": "https://th-i.thgim.com/public/incoming/6oklws/article71600645.ece/alternates/LANDSCAPE_1200/04hyng_water%20tanker%2001.jpg",
+    "date": "2026-10-18T15:25:50+00:00"
+  },
+  {
+    "title": "Earthquake of magnitude 5.7 jolts Pakistan's Balochistan",
+    "link": "https://www.thehindu.com/news/international/earthquake-of-magnitude-57-jolts-pakistans-balochistan/article71595718.ece",
+    "description": "The quake was reported 48 km west-northwest of Khuzdar, it said. In February, a 5.6-magnitude earthquake also struck Balochistan province.",
+    "image": "https://th-i.thgim.com/public/news/national/w0kjnz/article71595750.ece/alternates/LANDSCAPE_1200/Quake.jpg",
+    "date": "2026-10-18T15:25:21+00:00"
+  },
+  {
+    "title": "Ranji Trophy: Gurjapneet Singh, Sai Kishore star as Tamil Nadu enjoys near-perfect day",
+    "link": "https://www.thehindu.com/sport/cricket/gurjapneet-singh-sai-kishore-star-as-tamil-nadu-enjoys-near-perfect-day/article71600611.ece",
+    "description": "",
+    "image": "https://th-i.thgim.com/public/incoming/mgz229/article71600623.ece/alternates/LANDSCAPE_1200/DSC_7822.JPG",
+    "date": "2026-10-18T15:24:22+00:00"
+  },
+  {
+    "title": "Sting operations have shifted to Vidhana Soudha from KPCC office, says Vijayendra",
+    "link": "https://www.thehindu.com/news/national/karnataka/sting-operations-have-shifted-to-vidhana-soudha-from-kpcc-office-says-vijayendra/article71599922.ece",
+    "description": "Dissidence against Chief Minister D.K. Shivakumar has begun, according to the BJP State president",
+    "image": "https://th-i.thgim.com/public/incoming/s759qb/article71600088.ece/alternates/LANDSCAPE_1200/9727_18_10_2026_18_55_28_1_19BGMBYVHUBLISANKANUR1.JPEG",
+    "date": "2026-10-18T15:24:18+00:00"
+  },
+  {
+    "title": "Albania protests continue for sixth straight day demanding Prime Minister’s resignation",
+    "link": "https://www.thehindu.com/news/international/albania-protests-continue-for-sixth-straight-day-demanding-prime-ministers-resignation/article71599909.ece",
+    "description": "Hundreds of protesters gathered on Sunday in front of the Education Ministry chanting “Rama, resign” in a tense standoff with the police, who later used water cannons and tear gas to hold back the crowds",
+    "image": "https://th-i.thgim.com/public/incoming/ar4t5i/article71600222.ece/alternates/LANDSCAPE_1200/2026-10-18T124253Z_75391768_RC2O5OAMHXPW_RTRMADP_3_ALBANIA-PROTEST.JPG",
+    "date": "2026-10-18T15:23:22+00:00"
+  },
+  {
+    "title": "ISL: Defending champions East Bengal Churchill Brothers 4-0",
+    "link": "https://www.thehindu.com/sport/football/isl-defending-champions-east-bengal-churchill-brothers-4-0/article71600535.ece",
+    "description": "EBFC took the lead in the second minute through a stunning free-kick from Ramirez with a left foot strike from outside the penalty area, curling the ball into the top-left corner",
+    "image": "https://th-i.thgim.com/public/incoming/shcc6c/article71600576.ece/alternates/LANDSCAPE_1200/HU6pZqkaYAAILys.jpg",
+    "date": "2026-10-18T15:22:29+00:00"
+  },
+  {
+    "title": "Trump endorses Netanyahu in Israeli election",
+    "link": "https://www.thehindu.com/news/international/trump-endorses-netanyahu-in-israeli-election/article71600598.ece",
+    "description": "“This is the ⁠kind of Partner that the United States of America is demanding of Israel, ​a Country ‌for which it has done so much,” the U.S. President wrote on Truth Social",
+    "image": "https://th-i.thgim.com/public/incoming/nwx92v/article71600633.ece/alternates/LANDSCAPE_1200/Iran_US_6_Months_Changed_Mideast_17733.jpg",
+    "date": "2026-10-18T15:22:15+00:00"
+  },
+  {
+    "title": "Death toll rises to 19 in Kolkata Durga Puja stampede; CM issues crowd managment directives",
+    "link": "https://www.thehindu.com/news/cities/kolkata/kolkata-durga-puja-stampede-toll-rises-to-19-sitting-hc-judge-to-probe-incident/article71598984.ece",
+    "description": "After large numbers used the pandal to shelter from the rain, a misleading announcement asked people to leave the pandal as the structure could collapse at any moment, triggering the stampede, early reports say",
+    "image": "https://th-i.thgim.com/public/incoming/7frlpv/article71599012.ece/alternates/LANDSCAPE_1200/PTI10_17_2026_000548B.jpg",
+    "date": "2026-10-18T15:21:54+00:00"
+  },
+  {
+    "title": "Reconnecting with old contacts to seek support: candidates in Nellore gear up for local polls",
+    "link": "https://www.thehindu.com/news/national/andhra-pradesh/reconnecting-with-old-contacts-to-seek-support-candidates-in-nellore-gear-up-for-local-polls/article71599493.ece",
+    "description": "",
+    "image": "https://th-i.thgim.com/public/incoming/vx9bc9/article71600586.ece/alternates/LANDSCAPE_1200/9604_18_10_2026_14_47_43_1_IMG_20261018_WA0010.JPG",
+    "date": "2026-10-18T15:20:48+00:00"
+  },
+  {
+    "title": "737 motorists caught for drunk driving in Hyderabad, Cyberabad",
+    "link": "https://www.thehindu.com/news/national/telangana/737-motorists-caught-for-drunk-driving-in-hyderabad-cyberabad/article71600347.ece",
+    "description": "",
+    "image": null,
+    "date": "2026-10-18T15:20:18+00:00"
+  },
+  {
+    "title": "Chacarra dedicates triumph to his late grandfather",
+    "link": "https://www.thehindu.com/sport/chacarra-dedicates-triumph-to-his-late-grandfather/article71600619.ece",
+    "description": "The Spaniard also speaks of his love for India, where he claimed his maiden DP World Tour title at the 2025 Hero Indian Open",
+    "image": "https://th-i.thgim.com/public/incoming/qkgzs2/article71600617.ece/alternates/LANDSCAPE_1200/C15_RVM_0989.jpg",
+    "date": "2026-10-18T15:19:50+00:00"
+  },
+  {
+    "title": "Roadside encroachments cleared ahead of festive rush",
+    "link": "https://www.thehindu.com/news/cities/Tiruchirapalli/roadside-encroachments-cleared-ahead-of-festive-rush/article71600335.ece",
+    "description": "",
+    "image": "https://th-i.thgim.com/public/news/cities/Tiruchirapalli/ie1ota/article71600348.ece/alternates/LANDSCAPE_1200/ea262a4d-d086-46c8-b942-3f30766a59fc.jpg",
+    "date": "2026-10-18T15:16:31+00:00"
+  },
+  {
+    "title": "Ranji Trophy: Manvanth’s gutsy knock lifts Karnataka on day one",
+    "link": "https://www.thehindu.com/sport/cricket/ranji-trophy-manvanths-gutsy-knock-lifts-karnataka-on-day-one/article71600599.ece",
+    "description": "The southpaw smashes an unbeaten 86 and puts on 87 for the unbroken ninth wicket with Abhilash to take his side to 281 for eight; Unadkat and Bhut claim three apiece for Saurashtra",
+    "image": "https://th-i.thgim.com/public/incoming/7ppzkr/article71600604.ece/alternates/LANDSCAPE_1200/_JAI5799.JPG",
+    "date": "2026-10-18T15:15:42+00:00"
+  },
+  {
+    "title": "Ranji Trophy: Happy with my century, but disappointed with the way I got out, says Sachin",
+    "link": "https://www.thehindu.com/sport/cricket/happy-with-my-century-but-disappointed-with-the-way-i-got-out-says-sachin/article71600411.ece",
+    "description": "",
+    "image": "https://th-i.thgim.com/public/incoming/86qkmy/article71600592.ece/alternates/LANDSCAPE_1200/NH18Ranji018.JPG",
+    "date": "2026-10-18T15:15:30+00:00"
+  },
+  {
+    "title": "Dasara air show: Bad weather plays spoilsport",
+    "link": "https://www.thehindu.com/news/national/karnataka/dasara-air-show-bad-weather-plays-spoilsport/article71599750.ece",
+    "description": "",
+    "image": "https://th-i.thgim.com/public/incoming/8udh7m/article71600596.ece/alternates/LANDSCAPE_1200/Air%20Show%202.JPG",
+    "date": "2026-10-18T15:15:29+00:00"
+  },
+  {
+    "title": "Hubballi Chalo padayatra by sugarcane farmers likely to temporarily halt today",
+    "link": "https://www.thehindu.com/news/national/karnataka/hubballi-chalo-padayatra-by-sugarcane-farmers-likely-to-end-today/article71600027.ece",
+    "description": "The agitation will resume after the New Delhi rally on October 23",
+    "image": "https://th-i.thgim.com/public/incoming/uevyd3/article71600161.ece/alternates/LANDSCAPE_1200/Sugarcane-farmeG80GLQ49G.4.jpg.jpg",
+    "date": "2026-10-18T15:14:21+00:00"
+  },
+  {
+    "title": "Four held with 600 tablets allegedly meant for intoxication in Tirunelveli",
+    "link": "https://www.thehindu.com/news/cities/Madurai/four-held-with-600-tablets-allegedly-meant-for-intoxication-in-tirunelveli/article71600375.ece",
+    "description": "",
+    "image": null,
+    "date": "2026-10-18T15:14:15+00:00"
+  },
+  {
+    "title": "Distribution of subsidised rice for ₹30 per kg through cooperative outlets begins",
+    "link": "https://www.thehindu.com/news/cities/Madurai/distribution-of-subsidised-rice-for-30-per-kg-through-cooperative-outlets-begins/article71600439.ece",
+    "description": "",
+    "image": null,
+    "date": "2026-10-18T15:14:10+00:00"
+  },
+  {
+    "title": "Dharwad Dasara to be celebrated tomorrow",
+    "link": "https://www.thehindu.com/news/national/karnataka/dharwad-dasara-to-be-celebrated-tomorrow/article71600456.ece",
+    "description": "The Jamboo Savari as part of Navaratri will begin with the ceremonial worship of the goddess and the howdah at Bandemma Temple",
+    "image": "https://th-i.thgim.com/public/incoming/sn3ewr/article71600587.ece/alternates/LANDSCAPE_1200/2699_2_10_2025_18_40_51_1_03HUBLIDWDJAMBOOSAVARI_3.JPG",
+    "date": "2026-10-18T15:13:48+00:00"
+  },
+  {
+    "title": "West zone districts witness large-scale movement of butterflies; roadkill ends migration of hundreds midway",
+    "link": "https://www.thehindu.com/news/national/tamil-nadu/west-zone-districts-witness-large-scale-movement-of-butterflies-roadkills-end-migration-of-hundreds-midway/article71600239.ece",
+    "description": "",
+    "image": "https://th-i.thgim.com/public/incoming/uzfwv2/article71600562.ece/alternates/LANDSCAPE_1200/2085_18_10_2026_20_11_14_1_DARKBLUETIGERBUTTERFLIES.JPG",
+    "date": "2026-10-18T15:12:29+00:00"
+  },
+  {
+    "title": "Local body polls: Andhra Pradesh High Court rejects YSRCP’s plea seeking more time for filing nominations",
+    "link": "https://www.thehindu.com/news/national/andhra-pradesh/local-body-polls-andhra-pradesh-high-court-rejects-ysrcps-plea-seeking-more-time-for-filing-nominations/article71600298.ece",
+    "description": "A Division Bench refuses to interfere with the election process, saying that it could not act on it after the notification had been issued and the stipulated time lapsed,",
+    "image": "https://th-i.thgim.com/public/incoming/sh6st5/article71600557.ece/alternates/LANDSCAPE_1200/Andhra-Pradesh-GBBGKJCLI.3.jpg.jpg",
+    "date": "2026-10-18T15:12:11+00:00"
+  },
+  {
+    "title": "VOC Port receives mainline vessel, boosts connectivity with South China and Vietnam",
+    "link": "https://www.thehindu.com/news/cities/Madurai/voc-port-receives-mainline-vessel-boosts-connectivity-with-south-china-and-vietnam/article71600472.ece",
+    "description": "",
+    "image": null,
+    "date": "2026-10-18T15:12:07+00:00"
+  },
+  {
+    "title": "Telangana issues guidelines for management of road safety funds",
+    "link": "https://www.thehindu.com/news/national/telangana/telangana-issues-guidelines-for-management-of-road-safety-funds/article71595890.ece",
+    "description": "The measures are aimed at ensuring the effective utilisation of funds and better coordination among departments involved in road safety.",
+    "image": "https://th-i.thgim.com/public/incoming/wg9mm6/article71596107.ece/alternates/LANDSCAPE_1200/DSC5402.jpg",
+    "date": "2026-10-18T15:11:22+00:00"
+  },
+  {
+    "title": "‘Turtle Walker’: Zoya Akhtar-backed documentary pays tribute to Satish Bhaskar’s life and legacy",
+    "link": "https://www.thehindu.com/life-and-style/turtle-walker-zoya-akhtar-taira-malaney-satish-bhaskar-animal-planet-documentary-india-epic-wild-stories/article71599741.ece",
+    "description": "The film is a stunning deep dive into the life of turtle conservationist Satish Bhaskar, who walked nearly every inch of India’s coastline to discover the nesting beaches of sea turtles so that they could be protected",
+    "image": "https://th-i.thgim.com/public/life-and-style/foibfv/article71599776.ece/alternates/LANDSCAPE_1200/TW_02.jpg",
+    "date": "2026-10-18T15:11:16+00:00"
+  },
+  {
+    "title": "Devotees in colourful costumes flock to Kulasekarapattinam for Dasara",
+    "link": "https://www.thehindu.com/news/cities/Madurai/devotees-in-colourful-costumes-flock-to-kulasekarapattinam-for-dasara/article71599861.ece",
+    "description": "",
+    "image": "https://th-i.thgim.com/public/incoming/836l6s/article71600530.ece/alternates/LANDSCAPE_1200/9865_18_10_2026_19_48_16_2_DSC_2528.JPG",
+    "date": "2026-10-18T15:10:34+00:00"
+  },
+  {
+    "title": "Congress will have to pay price for misrule, says HDK",
+    "link": "https://www.thehindu.com/news/national/karnataka/union-minister-hd-kumaraswamy-exudes-confidence-of-coalition-govt-in-karnataka-in-2028-elections/article71599326.ece",
+    "description": "Union Minister Kumaraswamy said the coalition’s return in 2028 was a certainty",
+    "image": "https://th-i.thgim.com/public/incoming/9f7g0/article71600568.ece/alternates/LANDSCAPE_1200/9911_18_10_2026_12_24_58_2_HDK_2.JPEG",
+    "date": "2026-10-18T15:08:41+00:00"
+  },
+  {
+    "title": "Kolkata pandal stampede LIVE | Nine IPS officers assigned for Durga Puja crowd management; police issues 11-point advisory",
+    "link": "https://www.thehindu.com/news/cities/kolkata/kolkata-bengal-pandal-collapse-stampede-injured-death-updates-on-october-17-2026/article71597549.ece",
+    "description": "Seven accused sent to 10-day police custody by a local court; CM Adhikari, Amit Shah meet injured persons at a city hospital",
+    "image": null,
+    "date": "2026-10-18T15:08:18+00:00"
+  },
+  {
+    "title": "Modi, Shah, CEC Kumar will face justice and pay the price for vote chori: Rahul",
+    "link": "https://www.thehindu.com/news/national/goa/rahul-gandhi-goa-congress-anti-cec-protest-modi-shah-gyanesh-kumar/article71599732.ece",
+    "description": "There is no confusion anymore. Gyanesh Kumar implements the vote theft, Amit Shah operationalises it, and Prime Minister Narendra Modi does the entire planning from behind the scenes, says the Congress MP",
+    "image": "https://th-i.thgim.com/public/incoming/jted3u/article71600563.ece/alternates/LANDSCAPE_1200/20261018369L.jpg",
+    "date": "2026-10-18T15:07:10+00:00"
+  },
+  {
+    "title": "Keralam govt. looks to emulate Tirupati model to manage pilgrim rush at Sabarimala",
+    "link": "https://www.thehindu.com/news/national/kerala/keralam-govt-looks-to-emulate-tirupati-model-to-manage-pilgrim-rush-at-sabarimala/article71596038.ece",
+    "description": "Chief Minister V.D. Satheesan reviews preparations for the annual pilgrimage season at Pampa, says steps will be initiated after the current season to improve crowd management and facilities at the hill temple",
+    "image": "https://th-i.thgim.com/public/incoming/5pvy0r/article71596077.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-17%20at%2012.26.55.jpeg",
+    "date": "2026-10-18T15:06:36+00:00"
+  },
+  {
+    "title": "Asian Para Games: Can India script another 100-medal triumph despite smaller contingent?",
+    "link": "https://timesofindia.indiatimes.com/sports/asian-para-games-2026/asian-para-games-can-indias-para-athletes-script-another-100-medal-triumph-despite-a-smaller-contingent/articleshow/135030773.cms",
+    "description": "India will be represented by 166 athletes across 10 disciplines at the October 18-24 event. The contingent features several Paralympic medallists, world champions and emerging talents, including archer Sheetal Devi, badminton stars Pramod Bhagat and Suhas Yathiraj, and para-table tennis player Bhavina Patel.",
+    "image": "https://static.toiimg.com/photo/msid-135030803,imgsize-139729.cms",
+    "date": "2026-10-18T15:06:27+00:00"
+  },
+  {
+    "title": "Shivakumar told not to engage in scaring sugarcane farmers",
+    "link": "https://www.thehindu.com/news/national/karnataka/shivakumar-told-not-to-engage-in-scaring-sugarcane-farmers/article71600419.ece",
+    "description": "Kurubur Shantakumar asks Ministers and legislators to give up their salary and allowances to compensate drought-hit farmers",
+    "image": "https://th-i.thgim.com/public/incoming/r9q0yd/article71600543.ece/alternates/LANDSCAPE_1200/9727_18_10_2026_19_27_53_1_19BGMKURUBURYERIKOPPA1.JPEG",
+    "date": "2026-10-18T15:03:44+00:00"
+  },
+  {
+    "title": "Five workers killed, many injured in blast at chemical unit in Gujarat’s Bharuch",
+    "link": "https://www.thehindu.com/news/national/gujarat/workers-killed-as-many-injured-in-blast-at-chemical-unit-in-gujarats-bharuch/article71595455.ece",
+    "description": "The explosion, suspected to have occurred during a hydrogenation process, was so powerful that it ripped apart the reactor tank, scattering machinery parts across the premises, Bharuch Sub-Divisional Magistrate Manisha Manani said",
+    "image": "https://th-i.thgim.com/public/incoming/3zewpf/article71596085.ece/alternates/LANDSCAPE_1200/PTI10_17_2026_000154B.jpg",
+    "date": "2026-10-18T15:03:29+00:00"
+  },
+  {
+    "title": "Tiranga March held in solidarity with arrested, detained protesters in Bengaluru",
+    "link": "https://www.thehindu.com/news/cities/bangalore/tiranga-march-held-in-solidarity-with-arrested-detained-protesters-in-bengaluru/article71599581.ece",
+    "description": "",
+    "image": "https://th-i.thgim.com/public/incoming/ncdvlm/article71599674.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-18%20at%2016.21.09.jpeg",
+    "date": "2026-10-18T15:02:39+00:00"
+  },
+  {
+    "title": "Bengaluru metro commuters raise questions over unused balance in smart cards as NCMC adoption grows",
+    "link": "https://www.thehindu.com/news/national/karnataka/bengaluru-metro-commuters-raise-questions-over-unused-balance-in-smart-cards-as-ncmc-adoption-grows/article71600178.ece",
+    "description": "",
+    "image": "https://th-i.thgim.com/public/incoming/nkejgb/article71600541.ece/alternates/LANDSCAPE_1200/_JAI1033.JPG",
+    "date": "2026-10-18T15:02:03+00:00"
+  },
+  {
+    "title": "MBA student smuggled MDMA on train to Vijayawada or ₹50,000 commision, say police",
+    "link": "https://www.thehindu.com/news/cities/Vijayawada/mba-student-smuggled-mdma-on-train-to-vijayawada-or-50000-commision-say-police/article71599574.ece",
+    "description": "The accused, who was caught with MDMA worth 11 lakh at Vijayawada railway station on October 14, procured the contraband from a Nigerian national in Bengaluru, say police",
+    "image": null,
+    "date": "2026-10-18T15:01:10+00:00"
+  },
+  {
+    "title": "23-year-old stabbed to death at Mangadu de-addiction centre, two employees held",
+    "link": "https://www.thehindu.com/news/cities/chennai/23-year-old-stabbed-to-death-at-mangadu-de-addiction-centre-two-employees-held/article71591899.ece",
+    "description": "",
+    "image": "https://th-i.thgim.com/public/news/national/tamil-nadu/wy3rom/article71596068.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-16%20at%2016.11.23.jpeg",
+    "date": "2026-10-18T14:59:47+00:00"
+  },
+  {
+    "title": "Two arrested for stealing gold chains from jewellery shop in New Washermenpet",
+    "link": "https://www.thehindu.com/news/cities/chennai/two-arrested-for-stealing-gold-chains-from-jewellery-shop-in-new-washermenpet/article71595844.ece",
+    "description": "",
+    "image": null,
+    "date": "2026-10-18T14:59:44+00:00"
+  },
+  {
+    "title": "TDP hopeful of a cakewalk in Kamalapuram Municipality as YSRCP stays away from contest",
+    "link": "https://www.thehindu.com/news/national/andhra-pradesh/tdp-hopeful-of-a-cakewalk-in-kamalapuram-municipality-as-ysrcp-stays-away-from-contest/article71600295.ece",
+    "description": "Party’s Kadapa Mayor candidate Matli Suvarna files her nomination; district police register cases on more than 500 people in Pulivendula for their alleged involvement in violent incidents on Saturday and place leaders of both parties under house arrest",
+    "image": "https://th-i.thgim.com/public/incoming/5nm8xx/article71600501.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-18%20at%2018.11.50.jpeg",
+    "date": "2026-10-18T14:59:16+00:00"
+  },
+  {
+    "title": "10 killed in fire at seaside resort in Bangladesh",
+    "link": "https://www.thehindu.com/news/international/many-killed-in-fire-at-seaside-resort-in-bangladesh/article71596020.ece",
+    "description": "Ten people were killed, and nine were injured, Fire Service spokesman Talha Bin Zasim confirmed the death toll around 1:30 p.m., hours after the blaze broke out at the resort near Patuartek Beach along Marine Drive.",
+    "image": null,
+    "date": "2026-10-18T14:59:13+00:00"
+  },
+  {
+    "title": "Northeast monsoon: GCC Commissioner asks officials to address public complaints immediately",
+    "link": "https://www.thehindu.com/news/cities/chennai/northeast-monsoon-gcc-commissioner-asks-officials-to-address-public-complaints-immediately/article71595676.ece",
+    "description": "At a meeting with officials at Amma Maligai in Ripon Buildings, he reviewed preparedness for the Northeast monsoon and El Niño",
+    "image": "https://th-i.thgim.com/public/incoming/ugwdcb/article71595688.ece/alternates/LANDSCAPE_1200/Commissioner%20Meeting%20photo%20-%201.jpg.jpg",
+    "date": "2026-10-18T14:59:05+00:00"
+  },
+  {
+    "title": "Prison inmates set up stall at Dasara exhibition in Mysuru",
+    "link": "https://www.thehindu.com/news/national/karnataka/prisoners-set-up-stall-at-dasara-exhibition-in-mysuru/article71595760.ece",
+    "description": "Bakery items prepared by prisoners delighted visitors to the stall",
+    "image": "https://th-i.thgim.com/public/incoming/azlzmw/article71596037.ece/alternates/LANDSCAPE_1200/5964_13_10_2026_19_57_22_1_DSC_4114JPG.JPEG",
+    "date": "2026-10-18T14:58:34+00:00"
+  },
+  {
+    "title": "Sri Lanka’s Human Rights Commission flags enduring militarisation in Tamil-majority areas",
+    "link": "https://www.thehindu.com/news/international/sri-lankas-human-rights-commission-flags-enduring-militarisation-in-tamil-majority-areas/article71595758.ece",
+    "description": "Seventeen years after civil war ended, militarisation remains a persistent feature of governance and land use in the north and east, its latest report notes",
+    "image": "https://th-i.thgim.com/public/incoming/4l3fbg/article71595848.ece/alternates/LANDSCAPE_1200/2026-03-05T083352Z_77797419_RC2OXJAVXIDL_RTRMADP_3_IRAN-CRISIS-SHIP-SRI-LANKA.JPG",
+    "date": "2026-10-18T14:58:27+00:00"
+  },
+  {
+    "title": "Nedurumalli Ram Kumar vows to gift Venkatagiri municipality to Jagan",
+    "link": "https://www.thehindu.com/news/national/andhra-pradesh/nedurumalli-ram-kumar-vows-to-gift-venkatagiri-municipality-to-jagan/article71595892.ece",
+    "description": "Party activists from all 36 wards of the town reached Mr. Ram Kumar’s residence, expressing support in favour of the municipal chairperson candidate Boligarla Deevena.",
+    "image": "https://th-i.thgim.com/public/incoming/pz5czn/article71596047.ece/alternates/LANDSCAPE_1200/9604_17_10_2026_14_46_59_1_IMG_20261017_WA0024.JPG",
+    "date": "2026-10-18T14:58:20+00:00"
+  },
+  {
+    "title": "After allegations, Congress MP Chamala reveals payments to RVM Constructions",
+    "link": "https://www.thehindu.com/news/national/telangana/after-allegations-congress-mp-chamala-reveals-payments-to-rvm-constructions/article71595794.ece",
+    "description": "He claimed the RVM owners are a former BRS MP’s relatives",
+    "image": "https://th-i.thgim.com/public/news/national/telangana/of85f4/article71595814.ece/alternates/LANDSCAPE_1200/Chamala%20Kiran%20Kumar%20Reddy%20.jpeg",
+    "date": "2026-10-18T14:58:17+00:00"
+  },
+  {
+    "title": "Pakistan plans Moon landing by 2035, expands space cooperation with China",
+    "link": "https://timesofindia.indiatimes.com/world/pakistan/pakistan-plans-moon-landing-by-2035-expands-space-cooperation-with-china/articleshow/135030473.cms",
+    "description": "Pakistan aims to land on the Moon by 2035 and send its first astronaut for a space mission. The astronaut, selected from candidates trained in China, is expected to participate in scientific experiments. Cooperation with China enhances Pakistan's aspirations in space exploration and technological advancement. Additionally, plans for establishing the first Space Museum at the University of Narowal were announced to promote scientific awareness.",
+    "image": "https://static.toiimg.com/photo/msid-135030644,imgsize-128972.cms",
+    "date": "2026-10-18T14:58:08+00:00"
+  },
+  {
+    "title": "Kovai Courtallam open to visitors on October 19 in view of holidays",
+    "link": "https://www.thehindu.com/news/cities/Coimbatore/kovai-courtallam-open-to-visitors-on-october-19-in-view-of-holidays/article71600430.ece",
+    "description": "",
+    "image": "https://th-i.thgim.com/public/incoming/4galnt/article71600511.ece/alternates/LANDSCAPE_1200/2085_18_10_2026_18_55_4_1_KOVAICOURTALLAM.JPEG",
+    "date": "2026-10-18T14:57:59+00:00"
+  },
+  {
+    "title": "Parents of SMA-affected kids in Keralam seek political support for their concerns over generic drug",
+    "link": "https://www.thehindu.com/news/national/kerala/parents-of-sma-affected-kids-in-keralam-seek-political-support-for-their-concerns-over-generic-drug/article71599875.ece",
+    "description": "Opposition leader Pinarayi Vijayan has written to Health Minister K. Muraleedharan urging him to address the concerns related to the efficacy of the new medicine",
+    "image": "https://th-i.thgim.com/public/incoming/t915u8/article71600142.ece/alternates/LANDSCAPE_1200/IMG_BL3012_Pulse_Anchor_2_1_R9DPCMH4.jpg",
+    "date": "2026-10-18T14:57:48+00:00"
+  },
+  {
+    "title": "Anti-CEC protest LIVE | CJP legal head alleges ‘deliberate delay’ in hearing on Saurav Das, Ashutosh Ranka’s release",
+    "link": "https://www.thehindu.com/news/national/cec-gyanesh-kumar-protests-oct-18-live-updates-cjp/article71598964.ece",
+    "description": "The CJP has warned of legal action against those allegedly responsible for keeping Ashutosh and Saurav in illegal custody",
+    "image": null,
+    "date": "2026-10-18T14:57:31+00:00"
+  },
+  {
+    "title": "IIT Palakkad to lead 48-member team to U.P.",
+    "link": "https://www.thehindu.com/news/national/kerala/iit-palakkad-to-lead-48-member-team-to-up/article71600391.ece",
+    "description": "The delegation comprises 24 women and 24 men selected from across Keralam, accompanied by five faculty members and staff of IIT Palakkad",
+    "image": null,
+    "date": "2026-10-18T14:56:45+00:00"
+  },
+  {
+    "title": "KSSP to take up campaigns on public health in Keralam",
+    "link": "https://www.thehindu.com/news/national/kerala/kssp-to-take-up-campaigns-on-public-health-in-keralam/article71600264.ece",
+    "description": "High morbidity, rise in lifestyle diseases, and growing elderly population are driving up medical treatment costs in the State, seminar participants say",
+    "image": "https://th-i.thgim.com/public/incoming/l4bo0g/article71600367.ece/alternates/LANDSCAPE_1200/IMG_PO16_Medical_insuran_2_1_GICU42DS.jpg",
+    "date": "2026-10-18T14:55:49+00:00"
+  },
+  {
+    "title": "Tiger Shroff shot at: Video captures sounds of gunshots - watch",
+    "link": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/tiger-shroff-escapes-unhurt-after-three-shots-are-heard-outside-juhu-venue-driver-hospitalised-mumbai-crime-branch-launches-probe/articleshow/135030656.cms",
+    "description": "Amidst the excitement of a football match in Mumbai, chaos ensued when gunshots rang out from motorcycle-riding attackers. Fans eagerly awaiting a glimpse of Tiger Shroff were thrown into panic. Thankfully, Tiger remained unharmed, yet both his driver and an autorickshaw driver required medical attention. The Lawrence Bishnoi gang has allegedly claimed responsibility, but verification is pending. The Mumbai Crime Branch continues to investigate the incident thoroughly.",
+    "image": "https://static.toiimg.com/photo/msid-135030664,imgsize-599101.cms",
+    "date": "2026-10-18T14:54:19+00:00"
+  },
+  {
+    "title": "Shots fired at Tiger Shroff in Mumbai's Juhu; Bishnoi gang claims responsibility",
+    "link": "https://timesofindia.indiatimes.com/city/mumbai/unidentified-persons-fire-at-actor-tiger-shroff-in-mumbais-juhu/articleshow/135030356.cms",
+    "description": "On a dramatic Sunday evening in Juhu, Mumbai, shots were fired at actor Tiger Shroff's vehicle. Thankfully, police confirm that Shroff remained unharmed. The incident took place close to Pushpa Park, prompting a thorough investigation. Authorities are reviewing CCTV footage to track down the shooters, and a manhunt is underway to capture those behind this alarming attack.",
+    "image": "https://static.toiimg.com/photo/msid-135030470,imgsize-946653.cms",
+    "date": "2026-10-18T14:38:14+00:00"
+  },
+  {
+    "title": "Russia hijacks Ukrainian drones, sends them to Baltic states; Kyiv apologises again",
+    "link": "https://timesofindia.indiatimes.com/defence/international/kyiv-apologises-again-as-russia-diverts-ukrainian-drones-into-baltic-states-what-is-gps-spoofing/articleshow/135030051.cms",
+    "description": "",
+    "image": "https://static.toiimg.com/photo/msid-135030220,imgsize-154618.cms",
+    "date": "2026-10-18T14:14:03+00:00"
+  },
+  {
+    "title": "Fires erupt at St Petersburg oil sites as Ukraine unleashes 1,000+ drones on Russia",
+    "link": "https://timesofindia.indiatimes.com/world/rest-of-world/fires-erupt-at-oil-sites-in-st-petersburg-as-ukraine-unleashes-1000-drones-on-russia/articleshow/135029833.cms",
+    "description": "",
+    "image": "https://static.toiimg.com/photo/msid-135029889,imgsize-125152.cms",
+    "date": "2026-10-18T13:51:43+00:00"
+  },
+  {
+    "title": "Brazilian man sells everything to meet online girlfriend, discovers she was AI",
+    "link": "https://timesofindia.indiatimes.com/world/rest-of-world/brazilian-man-sells-all-his-belongings-and-travels-1200-miles-to-meet-online-girlfriend-he-hoped-to-marry-only-to-discover-she-was-an-ai-generated-farm-girl-seeking-a-partner/articleshow/135029730.cms",
+    "description": "A Brazilian man sold all his belongings and travelled over 1,200 miles to meet the online girlfriend he hoped to marry. Edimar Martins, 49, discovered that the woman, featured on a TikTok account with around 300,000 followers, was AI-generated. After running out of money, he received assistance to return home but remains hopeful about finding love.",
+    "image": "https://static.toiimg.com/photo/msid-135029853,imgsize-96720.cms",
+    "date": "2026-10-18T13:50:11+00:00"
+  },
+  {
+    "title": "'Check CCTV': Wanted model breaks silence, claims bizman died by suicide",
+    "link": "https://timesofindia.indiatimes.com/city/lucknow/check-cctv-i-am-innocent-wanted-model-shraddha-dubey-breaks-silence-claims-businessman-died-by-suicide-in-video/articleshow/135029350.cms",
+    "description": "Shraddha Dubey issued a public statement denying murder allegations connected to Shiva Sharma's death. She claims Sharma died by suicide after jumping from her apartment building. Shraddha alleges that financial issues contributed to his distress, including a dispute over borrowed jewelry. Despite her denial, the police are intensifying their search for her and others involved. The investigation continues as authorities seek further evidence regarding the circumstances of his death.",
+    "image": "https://static.toiimg.com/photo/msid-135029596,imgsize-108909.cms",
+    "date": "2026-10-18T13:33:16+00:00"
+  },
+  {
+    "title": "8 workers killed as speeding car runs them over in Punjab’s Sangrur",
+    "link": "https://timesofindia.indiatimes.com/city/chandigarh/5-workers-killed-several-injured-as-speeding-car-runs-them-over-in-punjabs-sangrur/articleshow/135029407.cms",
+    "description": "A tragic incident unfolded near Lehragaga town, resulting in the loss of eight MNGREGA workers' lives as they rested by the roadside and were struck by a speeding vehicle on Sunday afternoon. The local populace criticized the emergency responders for their slow arrival, igniting protests in the region. Police have detained individuals from the vehicle, although the driver has yet to be caught.",
+    "image": "https://static.toiimg.com/photo/msid-135030018,imgsize-963127.cms",
+    "date": "2026-10-18T13:27:25+00:00"
+  },
+  {
+    "title": "Manipur in turmoil again: 15 houses torched; 1 killed, several injured in gun attack",
+    "link": "https://timesofindia.indiatimes.com/city/imphal/manipur-in-turmoil-again-15-houses-torched-in-kamjong-1-killed-several-injured-in-gun-attack/articleshow/135029141.cms",
+    "description": "In Chassad village, located in Manipur's Kamjong district, at least 15 houses were burned late Saturday night. Suspected militants attacked the village, causing significant chaos and civilians to flee for safety. A Kuki civilian was killed during the assault, and four others suffered injuries from gunfire. Deputy Chief Minister Nemcha Kipgen condemned the violence and called for strict action against the perpetrators.",
+    "image": "https://static.toiimg.com/photo/msid-135029300,imgsize-58400.cms",
+    "date": "2026-10-18T13:08:14+00:00"
+  },
+  {
+    "title": "'People with hatred in heart': Trump blames immigrants as France burns; Vance warns US",
+    "link": "https://timesofindia.indiatimes.com/world/us/hatred-in-their-hearts-trump-links-france-violence-to-immigration-urges-border-closure/articleshow/135029155.cms",
+    "description": "",
+    "image": "https://static.toiimg.com/photo/msid-135029248,imgsize-115895.cms",
+    "date": "2026-10-18T13:03:02+00:00"
+  },
+  {
+    "title": "Michigan family can lose lakefront cottage to county after 60-year ownership",
+    "link": "https://timesofindia.indiatimes.com/world/us/a-michigan-family-owned-a-one-third-acre-lakefront-cottage-before-prairie-view-park-was-built-more-than-60-years-later-courts-say-kalamazoo-county-can-condemn-it/articleshow/135028735.cms",
+    "description": "The Michigan Court of Appeals has confirmed Kalamazoo County's legal right to acquire a residential cottage located near Prairie View County Park, ending a protracted legal battle. County officials want to integrate the cottage into their plans for park expansion, but the owners have raised objections, arguing that the public purpose claims are obsolete. The issue of fair compensation continues to be debated if a mutual valuation is not achieved.",
+    "image": "https://static.toiimg.com/photo/msid-135029051,imgsize-1282285.cms",
+    "date": "2026-10-18T12:47:30+00:00"
+  },
+  {
+    "title": "Egypt pledges support for Saudi Arabia as Houthi attacks escalate",
+    "link": "https://timesofindia.indiatimes.com/world/middle-east/egypt-pledges-support-for-saudi-arabia-as-houthi-attacks-escalate/articleshow/135028891.cms",
+    "description": "Egypt announced its willingness to provide military assistance to Saudi Arabia to ensure its security and stability. President Abdel Fattah al-Sisi convened the National Defence Council to discuss potential support amid Houthi assaults. These attacks have targeted key infrastructure, including Riyadh’s international airport and Saudi Aramco. Egypt has previously supported Saudi Arabia in the Yemeni conflict, although its role has been limited.",
+    "image": "https://static.toiimg.com/photo/msid-47529300.cms",
+    "date": "2026-10-18T12:43:52+00:00"
+  },
+  {
+    "title": "'BJP conspiring to add fake votes': Akhilesh makes big claim, questions need for SSR",
+    "link": "https://timesofindia.indiatimes.com/india/whats-the-need-for-ssr-akhilesh-yadav-says-bjp-conspiring-to-add-fake-votes-urges-sp-workers-to-be-vigilant/articleshow/135028835.cms",
+    "description": "Akhilesh Yadav has accused the BJP of manipulating electoral rolls by adding fake votes and deleting genuine votes. He urged party workers to remain vigilant at polling booths and defend against electoral malpractice. Yadav raised concerns over the Election Commission's rationale for revising electoral rolls, questioning the need for it. He also criticized the BJP government's performance on various issues impacting citizens, including education and corruption.",
+    "image": "https://static.toiimg.com/photo/msid-135028983,imgsize-56676.cms",
+    "date": "2026-10-18T12:40:00+00:00"
+  },
+  {
+    "title": "France's unrest spills across borders as protests turn violent in Belgium, Italy",
+    "link": "https://timesofindia.indiatimes.com/world/europe/frances-unrest-spills-across-borders-as-protests-turn-violent-in-belgium-italy/articleshow/135027820.cms",
+    "description": "France is witnessing explosive protests over soaring living expenses and inadequate public services, sparking clashes with police forces. This unrest has spilled over into neighboring Belgium and Italy, marking a significant uptick in regional tensions. With more than 500 police officers reported injured and severe property destruction across various cities, officials in both Belgium and Italy have condemned the clashes while understanding the underlying issues.",
+    "image": "https://static.toiimg.com/photo/msid-135028661,imgsize-183678.cms",
+    "date": "2026-10-18T12:16:21+00:00"
+  },
+  {
+    "title": "'Expiry date near': Rahul says PM Modi, Shah &amp; CEC will 'face justice' for 'vote chori'",
+    "link": "https://timesofindia.indiatimes.com/india/where-did-the-56-inch-chest-go-rahul-targets-pm-modi-shah-in-goa-says-bjps-expiry-date-is-near/articleshow/135028440.cms",
+    "description": "",
+    "image": "https://static.toiimg.com/photo/msid-135028501,imgsize-52906.cms",
+    "date": "2026-10-18T12:00:48+00:00"
+  },
+  {
+    "title": "Narrow space, single gate: Home guards’ role under lens in Kolkata stampede; 7 remanded",
+    "link": "https://timesofindia.indiatimes.com/city/kolkata/rain-rush-narrow-space-and-a-single-gate-kolkata-stampede-probe-turns-spotlight-on-home-guards-role-7-accused-get-10-day-custody-top-development/articleshow/135027950.cms",
+    "description": "Suvendu Adhikari has ordered an investigation into the stampede at Chorbagan Durga Puja pandal that resulted in 19 deaths. The crowded conditions worsened by rain contributed significantly to the tragic event. Adhikari criticized the previous TMC administration for leaving behind issues that led to this disaster. Additionally, seven individuals connected to the incident have been remanded to police custody for further questioning.",
+    "image": "https://static.toiimg.com/photo/msid-135028610,imgsize-160136.cms",
+    "date": "2026-10-18T11:53:49+00:00"
+  },
+  {
+    "title": "JD Vance’s immigration tiger is turning on its rider",
+    "link": "https://timesofindia.indiatimes.com/world/us/jd-vances-immigration-tiger-is-turning-on-its-rider/articleshow/135028163.cms",
+    "description": "US Vice President JD Vance admitted his rhetoric on H-1B visas was flawed during a recent town hall event. An Indian-American woman challenged him on his stance, suggesting it scapegoats immigrants. Vance defended his position by claiming he was criticizing corporate practices rather than foreign workers. His remarks have led to significant backlash from various groups regarding his mixed heritage.",
+    "image": "https://static.toiimg.com/photo/msid-135028302,imgsize-60402.cms",
+    "date": "2026-10-18T11:47:49+00:00"
+  },
+  {
+    "title": "Russia sold Alaska for peanuts. Now it guards America against Moscow",
+    "link": "https://timesofindia.indiatimes.com/world/us/russia-sold-alaska-for-peanuts-now-it-guards-america-against-moscow/articleshow/135027872.cms",
+    "description": "In 1867, Russia sold Alaska to the United States for $7.2 million, reflecting strategic concerns. The decision stemmed from fears of potential conflict with Britain during the Crimean War. Subsequent discoveries of natural resources transformed Alaska's economic importance significantly over the years. Alaska emerged as a crucial military platform for the United States against the Russian Far East.",
+    "image": "https://static.toiimg.com/photo/msid-135027884,imgsize-165914.cms",
+    "date": "2026-10-18T11:42:15+00:00"
+  },
+  {
+    "title": "Iran offers to reopen Strait of Hormuz in seven days if US accepts conditions",
+    "link": "https://timesofindia.indiatimes.com/world/middle-east/our-proposal-is-still-on-table-iran-offers-to-reopen-strait-of-hormuz-in-seven-days-if-us-accepts-conditions/articleshow/135027768.cms",
+    "description": "Iran's foreign minister Abbas Araqchi reiterated that the proposal to reopen the Strait of Hormuz remains in place. Tehran is analyzing the US response regarding its conditions for ending the conflict. These conditions include lifting sanctions and ending aggression in the region. Meanwhile, US President Donald Trump expressed optimism about a swift resolution to the war and lower gas prices.",
+    "image": "https://static.toiimg.com/photo/msid-135027939,imgsize-707721.cms",
+    "date": "2026-10-18T11:20:52+00:00"
+  },
+  {
+    "title": "Rain, poor crowd control likely led to Kolkata Durga Puja stampede: What we know so far",
+    "link": "https://timesofindia.indiatimes.com/india/sudden-rain-poor-crowd-management-likely-led-to-kolkata-durga-puja-stampede-what-we-know-so-far/articleshow/135027781.cms",
+    "description": "",
+    "image": "https://static.toiimg.com/photo/msid-135027801,imgsize-191166.cms",
+    "date": "2026-10-18T11:13:11+00:00"
+  },
+  {
+    "title": "'India not B'desh or France': Rijiju says 'politicians' incited youth, uses Rahul clip",
+    "link": "https://timesofindia.indiatimes.com/india/india-is-neither-bangladesh-nor-france-rijiju-alleges-plot-to-trigger-violence-during-anti-sir-protests/articleshow/135027638.cms",
+    "description": "",
+    "image": "https://static.toiimg.com/photo/msid-135027645,imgsize-87368.cms",
+    "date": "2026-10-18T11:00:14+00:00"
+  },
+  {
+    "title": "Brendan Taylor surpasses Andy Flower to become Zimbabwe’s highest ODI run-scorer",
+    "link": "https://timesofindia.indiatimes.com/sports/cricket/news/brendan-taylor-surpasses-andy-flower-to-become-zimbabwes-highest-odi-run-scorer/articleshow/135027483.cms",
+    "description": "In a remarkable feat, Brendan Taylor eclipsed Andy Flower as Zimbabwe's leading ODI run-scorer by scoring 81 runs during a match against Bangladesh in Abu Dhabi. This stellar performance not only played a pivotal role in Zimbabwe's 99-run victory but also showcased a promising partnership with Craig Ervine, who contributed 93 runs. Zimbabwe's bowlers were equally impressive, dismissing Bangladesh for 172 runs, marking a historic day in Zimbabwean cricket.",
+    "image": "https://static.toiimg.com/photo/msid-135027569,imgsize-129036.cms",
+    "date": "2026-10-18T10:54:29+00:00"
+  },
+  {
+    "title": "‘With help of God &amp; your prayers’: Pope makes first public appearance after surgery",
+    "link": "https://timesofindia.indiatimes.com/world/europe/with-help-of-god-your-prayers-pope-leo-xiv-makes-first-public-appearance-after-lung-cancer-surgery/articleshow/135027289.cms",
+    "description": "Pope Leo XIV recently made his first public appearance following surgery for lung cancer. He expressed gratitude for the prayers and support he received during his recovery. The pontiff confirmed that he will gradually return to his duties with continued prayer and divine assistance. His next major engagement is planned for November, which includes an overseas trip to South America.",
+    "image": "https://static.toiimg.com/photo/msid-135027363,imgsize-1138242.cms",
+    "date": "2026-10-18T10:42:42+00:00"
+  },
+  {
+    "title": "Gwalior temple tragedy: CM Yadav orders City SP’s removal, 8 others after 14 deaths",
+    "link": "https://timesofindia.indiatimes.com/india/gwalior-temple-tragedy-cm-mohan-yadav-orders-removal-of-city-sp-suspension-of-8-others-after-14-killed/articleshow/135027360.cms",
+    "description": "Madhya Pradesh chief minister Mohan Yadav has ordered the removal of nine police personnel due to negligence. A truck incident at Sheetla Mata temple resulted in 14 deaths and 28 injuries, prompting immediate action. Compensation of Rs 4 lakh has been announced for the families of the deceased. The chief minister stated that a detailed investigation would be initiated to identify responsible parties.",
+    "image": "https://static.toiimg.com/photo/msid-47529300.cms",
+    "date": "2026-10-18T10:39:49+00:00"
+  },
+  {
+    "title": "‘Consistency is overrated’: Ex-cricketer explains fine line between form and failure",
+    "link": "https://timesofindia.indiatimes.com/sports/cricket/news/consistency-is-overrated-in-t20s-former-india-cricketer-explains-fine-line-between-form-and-failure/articleshow/135026969.cms",
+    "description": "\"He is never out of form. The kind of player Sanju Samson has been in the T20 format; his form fluctuates. But it is always a matter of one innings. He plays one good innings, and he is back in form.\"",
+    "image": "https://static.toiimg.com/photo/msid-135027057,imgsize-124115.cms",
+    "date": "2026-10-18T10:38:59+00:00"
+  },
+  {
+    "title": "Vance blames immigration for France unrest as fire guts 143-year-old town hall",
+    "link": "https://timesofindia.indiatimes.com/world/europe/france-in-flames-jd-vance-blames-immigration-as-violent-protests-leave-historic-town-hall-in-ruins/articleshow/135027317.cms",
+    "description": "",
+    "image": "https://static.toiimg.com/photo/msid-135027355,imgsize-144798.cms",
+    "date": "2026-10-18T10:33:50+00:00"
+  },
+  {
+    "title": "FMCG firms feel the pinch: Will your favourite products cost more this Diwali?",
+    "link": "https://timesofindia.indiatimes.com/business/india-business/fmcg-firms-feel-the-pinch-will-your-favourite-products-cost-more-this-diwali/articleshow/135027201.cms",
+    "description": "FMCG companies face a challenging landscape as they contend with surging costs for essential raw materials like palm oil and sugar. The pressure on operating margins is significant and unlikely to alleviate soon. To maintain goodwill during the festive season, firms are absorbing some of these cost hikes rather than passing them on to consumers.",
+    "image": "https://static.toiimg.com/photo/msid-135027268,imgsize-230882.cms",
+    "date": "2026-10-18T10:31:11+00:00"
   },
   {
     "title": "'Could not prevent regime change within own party': CM Fadnavis mocks Uddhav",
@@ -21,158 +623,18 @@
     "date": "2026-10-18T10:25:50+00:00"
   },
   {
-    "title": "14 killed, 40 injured as truck hits devotees near temple in Madhya Pradesh’s Gwalior",
-    "link": "https://www.thehindu.com/news/national/madhya-pradesh/13-killed-40-injured-as-truck-hits-devotees-near-temple-in-madhya-pradeshs-gwalior/article71599095.ece",
-    "description": "The Madhya Pradesh CM ordered the transfer of SP Ravi Bhadoriya and the suspension of eight police personnel and ordered a detailed investigation into the tragedy",
-    "image": "https://th-i.thgim.com/public/incoming/rasbiz/article71599115.ece/alternates/LANDSCAPE_1200/PTI10_18_2026_000024B.jpg",
-    "date": "2026-10-18T10:25:02+00:00"
+    "title": "Google Maps route likely led truck to Gwalior temple: Police",
+    "link": "https://timesofindia.indiatimes.com/city/bhopal/google-maps-route-likely-led-truck-to-gwalior-temple-brakes-failed-before-crash-csp/articleshow/135027047.cms",
+    "description": "Around 1.30 am on Sunday, a heavy truck collided with devotees at Sheetla Mata Temple in Gwalior. The tragic incident resulted in at least 16 fatalities and numerous injuries among attendees. Authorities are investigating how the truck bypassed vehicle restrictions near the temple during the festival. Prime Minister Narendra Modi expressed distress, offering condolences and financial support for the victims’ families.",
+    "image": "https://static.toiimg.com/photo/msid-135027061,imgsize-73588.cms",
+    "date": "2026-10-18T10:15:35+00:00"
   },
   {
-    "title": "Kolkata pandal stampede: Adhikari orders independent probe, promises compensation for victims’ families",
-    "link": "https://www.thehindu.com/news/national/west-bengal/kolkata-pandal-stampede-adhikari-orders-independent-probe-promises-compensation-for-victims-families/article71599475.ece",
-    "description": "The Chief Minister announced that new crowd management guidelines will be drawn after the stampede’s “lesson”.",
-    "image": "https://th-i.thgim.com/public/incoming/fpoabx/article71599486.ece/alternates/LANDSCAPE_1200/20261018079L.jpg",
-    "date": "2026-10-18T10:23:30+00:00"
-  },
-  {
-    "title": "Harish Rao flays Govt. for collecting double fare in RTC buses",
-    "link": "https://www.thehindu.com/news/national/telangana/harish-rao-flays-govt-for-collecting-double-fare-in-rtc-buses/article71599360.ece",
-    "description": "He demanded that the government withdraw the increased fare in the name of festival specials and run regular services instead",
-    "image": "https://th-i.thgim.com/public/incoming/21grp5/article71599580.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-06%20at%205.33.54%20PM.jpeg",
-    "date": "2026-10-18T10:22:47+00:00"
-  },
-  {
-    "title": "JSP’s Vangaveeti Radhakrishna, YSRCP’s Rayana Bhagya Lakshmi to lock horns for Vijayawada Mayor post",
-    "link": "https://www.thehindu.com/news/national/andhra-pradesh/jsps-vangaveeti-radhakrishna-ysrcps-rayana-bhagya-lakshmi-to-lock-horns-for-vijayawada-mayor-post/article71596460.ece",
-    "description": "TDP fields Mukka Sravani as mayoral candidate in Visakhapatnam; the party has released a list of eight candidates for Mayor posts",
-    "image": "https://th-i.thgim.com/public/incoming/b0bzuz/article71596867.ece/alternates/LANDSCAPE_1200/10215_14_10_2026_18_39_29_1_WHATSAPPIMAGE2026_10_14AT63649PM.JPEG",
-    "date": "2026-10-18T10:16:20+00:00"
-  },
-  {
-    "title": "Sean ’Diddy’ Combs moved to a new prison after reports of a luxury lifestyle behind bars",
-    "link": "https://www.thehindu.com/news/international/sean-diddy-combs-moved-to-a-new-prison-after-reports-of-a-luxury-lifestyle-behind-bars/article71595226.ece",
-    "description": "Combs is serving a four-year, two-month sentence for his conviction last year on prostitution-related charges for transporting people across state lines for sexual encounters",
-    "image": "https://th-i.thgim.com/public/incoming/8alsyr/article71595234.ece/alternates/LANDSCAPE_1200/Sexual_Misconduct_Diddy_22553.jpg",
-    "date": "2026-10-18T10:15:25+00:00"
-  },
-  {
-    "title": "India bars sugar-based ethanol in 2026-27 tender, cuts maize incentive",
-    "link": "https://www.thehindu.com/news/national/india-bars-sugar-based-ethanol-in-2026-27-tender-cuts-maize-incentive/article71599459.ece",
-    "description": "The move comes amid concerns over domestic sugar availability and rising prices after poor rainfall in key sugar-producing States, including Maharashtra and Karnataka, raised the risk of lower output",
-    "image": "https://th-i.thgim.com/public/incoming/uqrxyq/article71599482.ece/alternates/LANDSCAPE_1200/iStock-162999335.jpg",
-    "date": "2026-10-18T10:14:50+00:00"
-  },
-  {
-    "title": "H.D. Kumaraswamy says his party stands with sugarcane growers",
-    "link": "https://www.thehindu.com/news/national/karnataka/hd-kumaraswamy-says-his-party-stands-with-sugarcane-growers/article71599369.ece",
-    "description": "Responding to Chief Minister D.K. Shivakumar’s assurances to the protesting farmers, Mr. Kumaraswamy said he had expected the Chief Minister to announce relief immediately",
-    "image": "https://th-i.thgim.com/public/incoming/hlg0n8/article71599572.ece/alternates/LANDSCAPE_1200/Kumaraswamy-seeGI8GLJSBC.3.jpg.jpg",
-    "date": "2026-10-18T10:14:43+00:00"
-  },
-  {
-    "title": "Bengaluru-based hospital performs pediatric kidney transplant through donor swap between two families",
-    "link": "https://www.thehindu.com/news/national/karnataka/bengaluru-based-hospital-performs-pediatric-kidney-transplant-through-donor-swap-between-two-families/article71593775.ece",
-    "description": "",
-    "image": "https://th-i.thgim.com/public/incoming/cl9non/article71594156.ece/alternates/LANDSCAPE_1200/wangsina_333_03_2022_2.jpg",
-    "date": "2026-10-18T10:13:27+00:00"
-  },
-  {
-    "title": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre",
-    "link": "https://www.thehindu.com/news/national/menstrual-hygiene-supreme-court-expresses-displeasure-over-states-uts-not-responding-to-centre/article71599447.ece",
-    "description": "The Bench said that on September 1, it had directed the States and UTs to take into consideration the deficiencies highlighted by it and report in that regard by the next date of hearing",
-    "image": "https://th-i.thgim.com/public/incoming/4t327q/article70621377.ece/alternates/LANDSCAPE_1200/INDEX_SUPREME_COURT_02_08_7.jpg",
-    "date": "2026-10-18T10:13:24+00:00"
-  },
-  {
-    "title": "Panic over lightning strikes Ernakulam as northeast monsoon sets in",
-    "link": "https://www.thehindu.com/news/national/kerala/panic-over-lightning-strikes-ernakulam-as-northeast-monsoon-sets-in/article71572451.ece",
-    "description": "Lightning strikes damaged 10 houses at Palayikkunnu in Vengola, left a girl with burn injuries and damaged a mosque minaret at Karumalloor; a portion of land also caved in at Vengola",
-    "image": "https://th-i.thgim.com/public/incoming/kmilzx/article71594009.ece/alternates/LANDSCAPE_1200/80968_12_5_2026_19_47_7_1_7O3A0359.JPEG",
-    "date": "2026-10-18T10:12:26+00:00"
-  },
-  {
-    "title": "Keralam’s first export consignment under India-New Zealand FTA flagged off",
-    "link": "https://www.thehindu.com/news/national/kerala/keralams-first-export-consignment-under-india-new-zealand-fta-flagged-off/article71593097.ece",
-    "description": "The shipment is among the first consignments from the country in preparation for the implementation of the Free Trade Agreement",
-    "image": "https://th-i.thgim.com/public/incoming/h1x5qe/article71593787.ece/alternates/LANDSCAPE_1200/IMG_%E2%80%98Current-accoun_GPVA_2_1_ERAATR5R.jpg",
-    "date": "2026-10-18T10:12:23+00:00"
-  },
-  {
-    "title": "Asphyxiation of two fishers: rights panel seeks report from District Collector",
-    "link": "https://www.thehindu.com/news/national/kerala/asphyxiation-of-two-fishers-rights-panel-seeks-report-from-district-collector/article71592038.ece",
-    "description": "Deaths have renewed concerns over the safety of fishing boat workers, particularly those required to enter confined storage compartments",
-    "image": "https://th-i.thgim.com/public/incoming/to9uq0/article71593763.ece/alternates/LANDSCAPE_1200/80692_29_7_2026_19_8_45_1_30TVKZBEYPORE.JPG",
-    "date": "2026-10-18T10:12:21+00:00"
-  },
-  {
-    "title": "No valid documents: Bangladeshi national held in Kozhikode",
-    "link": "https://www.thehindu.com/news/national/kerala/no-valid-documents-bangladeshi-national-held-in-kozhikode/article71599335.ece",
-    "description": "Police said the 44-year-old had been staying in Mundupalam in Kozhikode city for nearly four months as a tree cutter",
-    "image": "https://th-i.thgim.com/public/incoming/9zsybc/article71599576.ece/alternates/LANDSCAPE_1200/iStock-1447145892.jpg",
-    "date": "2026-10-18T10:06:12+00:00"
-  },
-  {
-    "title": "Kolkata pandal stampede LIVE | Adhikari orders independent probe, promises compensation for victims’ families",
-    "link": "https://www.thehindu.com/news/cities/kolkata/kolkata-bengal-pandal-collapse-stampede-injured-death-updates-on-october-17-2026/article71597549.ece",
-    "description": "CM Adhikari, Amit Shah and Governor R. N. Ravi visit victims of the stampede in the hospital",
-    "image": null,
-    "date": "2026-10-18T10:00:42+00:00"
-  },
-  {
-    "title": "Custodial torture is a calculated assault on human dignity, says Andhra Pradesh High Court in Sai Krishna case",
-    "link": "https://www.thehindu.com/news/national/andhra-pradesh/sai-krishna-custodial-death-case-presented-an-extraordinary-situation-that-warranted-cbi-probe-high-court/article71595642.ece",
-    "description": "The High Court calls custodial torture ‘a calculated assault on human dignity’ and suggests steps to prevent custodial violence by police",
-    "image": "https://th-i.thgim.com/public/incoming/tii5qk/article71596057.ece/alternates/LANDSCAPE_1200/Nearby_Shape-wiG62GK07LK.3.jpg.jpg",
-    "date": "2026-10-18T09:57:41+00:00"
-  },
-  {
-    "title": "After India's strong protest, Vance clarifies H-1B 'indentured servants' remark",
-    "link": "https://timesofindia.indiatimes.com/world/us/my-rhetoric-has-been-imperfect-jd-vance-walks-back-h-1b-indentured-servants-remark-after-indias-protest/articleshow/135026714.cms",
-    "description": "US Vice President JD Vance acknowledged that his rhetoric regarding H-1B visa workers was imperfect and apologised. He clarified that his remarks were aimed at companies exploiting the system rather than the workers themselves. Following criticisms from India, he stressed the importance of protecting foreign professionals’ rights while also considering American jobs. India’s Ministry of External Affairs expressed strong objections to Vance's terminology.",
-    "image": "https://static.toiimg.com/photo/msid-135026855,imgsize-46730.cms",
-    "date": "2026-10-18T09:56:04+00:00"
-  },
-  {
-    "title": "Keralam High Court directs release of ₹9.73 crore for 225 victim compensation claims",
-    "link": "https://www.thehindu.com/news/national/kerala/keralam-high-court-directs-release-of-973-crore-for-225-victim-compensation-claims/article71599510.ece",
-    "description": "The court also directed the secretaries of the respective District Legal Services Authorities to collect all required documents from victims while their cases were pending before the court to avoid delays in processing and disbursing compensation",
-    "image": "https://th-i.thgim.com/public/incoming/e6c61z/article71599559.ece/alternates/LANDSCAPE_1200/06tvnearby1_GOGGVFGKF98A.3.jpg.jpg",
-    "date": "2026-10-18T09:55:22+00:00"
-  },
-  {
-    "title": "CBI nabs Kozhikode native involved in cyber fraud",
-    "link": "https://www.thehindu.com/news/national/kerala/cbi-nabs-kozhikode-native-involved-in-cyber-fraud/article71599367.ece",
-    "description": "The arrest recorded on October 17 is linked to a cyber fraud case reported in July 2024, in which a Thrissur-based complainant allegedly lost ₹1 crore after being deceived by individuals posing as FedEx officials and cybercrime police personnel",
-    "image": null,
-    "date": "2026-10-18T09:54:55+00:00"
-  },
-  {
-    "title": "El Nino rains flood South America, sending residents fleeing and cattle swimming",
-    "link": "https://www.thehindu.com/news/international/el-nino-rains-flood-south-america-sending-residents-fleeing-and-cattle-swimming/article71595216.ece",
-    "description": "More rain is on the way. Uruguayan officials have warned that the country's drenched northwest will get its heaviest rain of the year in the coming months",
-    "image": "https://th-i.thgim.com/public/incoming/33pitp/article71595222.ece/alternates/LANDSCAPE_1200/2026-10-12T013846Z_1720532119_RC2P0OASXY8Y_RTRMADP_3_GLOBAL-WEATHER-EL-NINO.JPG",
-    "date": "2026-10-18T09:53:51+00:00"
-  },
-  {
-    "title": "Karnataka makes night-time attendance mandatory for doctors at taluk hospitals, PHCs",
-    "link": "https://www.thehindu.com/news/national/karnataka/karnataka-makes-night-time-attendance-mandatory-for-doctors-at-taluk-hospitals-phcs/article71599390.ece",
-    "description": "The government has also made it mandatory for contract and outsourced employees working in all government departments, offices, boards, corporations, authorities and government-aided institutions",
-    "image": null,
-    "date": "2026-10-18T09:53:05+00:00"
-  },
-  {
-    "title": "Trump says he is still considering diesel export ban",
-    "link": "https://www.thehindu.com/videos/shorts/trump-says-he-is-still-considering-diesel-export-ban/article71599558.ece",
-    "description": "",
-    "image": "https://th-i.thgim.com/public/incoming/psvwhs/article71599556.ece/alternates/LANDSCAPE_1200/AP10_18_2026_000007B.jpg",
-    "date": "2026-10-18T09:52:39+00:00"
-  },
-  {
-    "title": "Wayanad township: 149 houses in second phase nearing completion",
-    "link": "https://www.thehindu.com/news/national/kerala/wayanad-township-149-houses-in-second-phase-nearing-completion/article71599508.ece",
-    "description": "An anganwadi, a health centre, a market, public toilets and internal roads are expected to be ready by the end of the year",
-    "image": "https://th-i.thgim.com/public/news/national/kerala/9jjipe/article71599506.ece/alternates/LANDSCAPE_1200/19tvkz1-%20township.jpeg",
-    "date": "2026-10-18T09:50:54+00:00"
+    "title": "'Samson plays with emotions': Why Sooryavanshi will have to wait for his chance",
+    "link": "https://timesofindia.indiatimes.com/sports/cricket/news/sanju-samson-plays-with-emotions-ex-coach-explains-why-vaibhav-sooryavanshi-will-have-to-wait-for-his-chance/articleshow/135026610.cms",
+    "description": "Nayar believes Samson’s ability to respond to criticism with a big score makes it difficult for the team management to move on from him.",
+    "image": "https://static.toiimg.com/photo/msid-135026868,imgsize-147152.cms",
+    "date": "2026-10-18T09:54:04+00:00"
   },
   {
     "title": "'Unacceptable': Paswan defends 'Leave India' notice to Imran Khan over Mumbai stir",
@@ -182,81 +644,11 @@
     "date": "2026-10-18T09:49:54+00:00"
   },
   {
-    "title": "Heavy rains likely in many districts of Tamil Nadu including Chennai on Oct. 18",
-    "link": "https://www.thehindu.com/news/cities/chennai/heavy-rains-likely-in-many-districts-of-tamil-nadu-including-chennai-on-oct-18/article71599270.ece",
-    "description": "According to the department, there exists significant convective cloud development over the north coastal Tamil Nadu and adjoining sea areas associated with the cyclonic circulation over the region",
-    "image": "https://th-i.thgim.com/public/incoming/ocdwf0/article71599285.ece/alternates/LANDSCAPE_1200/_DSC8096%20copy.jpg",
-    "date": "2026-10-18T09:49:29+00:00"
-  },
-  {
-    "title": "Transmen cricket team from Karnataka battles financial barriers ahead of national tournament",
-    "link": "https://www.thehindu.com/news/cities/bangalore/transmen-cricket-team-from-karnataka-battles-financial-barriers-ahead-of-national-tournament/article71592624.ece",
-    "description": "",
-    "image": "https://th-i.thgim.com/public/news/cities/bangalore/31e07y/article71592613.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-16%20at%2016.47.05.jpeg",
-    "date": "2026-10-18T09:48:43+00:00"
-  },
-  {
     "title": "Woman locks herself in room with 2 children, attacks them with scissors; all 3 die",
     "link": "https://timesofindia.indiatimes.com/city/jaipur/rajasthan-horror-woman-locks-herself-in-room-with-2-children-attacks-them-with-scissors-all-3-die/articleshow/135026371.cms",
     "description": "In Dantiya village, Usha Sharma fatally attacked her minor children following a family argument. After the incident, she also inflicted injuries on herself. Villagers heard screams and found the three individuals injured in a locked room. Despite being rushed to the hospital, the children and Usha were all pronounced dead. Usha's sister, who was present, sustained serious injuries and was taken for further medical care.",
     "image": "https://static.toiimg.com/photo/msid-135026896,imgsize-84049.cms",
     "date": "2026-10-18T09:45:36+00:00"
-  },
-  {
-    "title": "Watch | Delhi: Security deployed in Jamia Millia Islamia after protest over students’ union restoration",
-    "link": "https://www.thehindu.com/videos/shorts/delhi-security-deployed-in-jamia-millia-islamia/article71599272.ece",
-    "description": "Jamia Millia Islamia students entered the campus amid police detentions, demanding restoration of the students’ union after the administration sealed the university gates, AISA said.",
-    "image": "https://th-i.thgim.com/public/todays-paper/tp-national/tp-newdelhi/t21bsw/article71598766.ece/alternates/LANDSCAPE_1200/Jamia-students-GA1GMA9J4.3.jpg.jpg",
-    "date": "2026-10-18T09:44:15+00:00"
-  },
-  {
-    "title": "Development in North Andhra will bring votes for NDA in local body polls, says TDP MLC Chiranjeevi Rao",
-    "link": "https://www.thehindu.com/news/national/andhra-pradesh/development-in-north-andhra-will-bring-votes-for-nda-in-local-body-polls-says-tdp-mlc-chiranjeevi-rao/article71599139.ece",
-    "description": "Vepada Chiranjeevi Rao says over 35,000 government jobs will be filled under the job calendar",
-    "image": "https://th-i.thgim.com/public/incoming/vla42n/article66635308.ece/alternates/LANDSCAPE_1200/VSP17_TDP_MLC%201.JPG",
-    "date": "2026-10-18T09:38:53+00:00"
-  },
-  {
-    "title": "Anti-CEC protest LIVE | Congress says nothing can save CEC, demands SIR be suspended forthwith as EC agrees to share ‘readable’ voter rolls",
-    "link": "https://www.thehindu.com/news/national/cec-gyanesh-kumar-protests-oct-18-live-updates-cjp/article71598964.ece",
-    "description": "The CJP has warned of legal action against those allegedly responsible for keeping Ashutosh and Saurav in illegal custody.",
-    "image": null,
-    "date": "2026-10-18T09:38:44+00:00"
-  },
-  {
-    "title": "Why Big Tech is giving away open-weight AI models, and what it wants in return | Explained",
-    "link": "https://www.thehindu.com/business/Industry/why-big-tech-is-giving-away-open-weight-ai-models-and-what-it-wants-in-return-explained/article71596411.ece",
-    "description": "From Muse Spark Open to Beam, Nemotron and Timestral, technology companies are releasing AI models to attract developers, challenge Chinese rivals and strengthen their ecosystems",
-    "image": "https://th-i.thgim.com/public/incoming/lf0zzn/article71599492.ece/alternates/LANDSCAPE_1200/2026-10-15T141912Z_1761068471_RC24PNAAK5YN_RTRMADP_3_BRITAIN-REGULATION-AI.JPG",
-    "date": "2026-10-18T09:35:55+00:00"
-  },
-  {
-    "title": "Rayalaseema landscape: Preserving the past, securing the future",
-    "link": "https://www.thehindu.com/news/national/andhra-pradesh/rayalaseema-landscape-preserving-the-past-securing-the-future/article71592574.ece",
-    "description": "Rayalaseema region’s rich geological past is reflected in its basement rocks, which formed more than 2.5 billion years ago during the Precambrian era. Today, however, this ancient foundation faces severe pressure from quarrying, road construction, and unregulated tourism. Fearing irreversible damage, geologists believe that securing UNESCO Global Geopark status for several of these geological wonders can help preserve them.",
-    "image": "https://th-i.thgim.com/public/incoming/h41uhi/article71592848.ece/alternates/LANDSCAPE_1200/image%2038.jpg",
-    "date": "2026-10-18T09:34:56+00:00"
-  },
-  {
-    "title": "Deforestation in Brazil's Amazon falls to all-time low",
-    "link": "https://www.thehindu.com/news/international/brazils-amazon-deforestation-hits-a-record-low/article71595215.ece",
-    "description": "Some 3,335 square kilometres (1,287.65 square miles) of Amazon jungle were destroyed ‌in the 12 months through July, an all-time low in the historical series that goes back to ‌1988",
-    "image": "https://th-i.thgim.com/public/incoming/40pmjf/article71595217.ece/alternates/LANDSCAPE_1200/2026-10-16T201729Z_1475391942_RC2YA9AU7DD3_RTRMADP_3_BRAZIL-DEFORESTATION.JPG",
-    "date": "2026-10-18T09:33:39+00:00"
-  },
-  {
-    "title": "Kumaraswamy cannot tolerate a Dalit like me making political progress: Priyank Kharge",
-    "link": "https://www.thehindu.com/news/national/karnataka/kumaraswamy-cannot-tolerate-a-dalit-like-me-making-political-progress-priyank-kharge/article71599407.ece",
-    "description": "Mr. Kharge said his attire and ability to speak English appeared to have become sources of irritation for the JD(S) leader",
-    "image": "https://th-i.thgim.com/public/incoming/xdo5so/article71599530.ece/alternates/LANDSCAPE_1200/10258_16_9_2026_17_33_3_2_371_J_SEMINAR_1.JPG",
-    "date": "2026-10-18T09:32:09+00:00"
-  },
-  {
-    "title": "Jennifer Lopez’s foundation helped connect Panama children with US specialists",
-    "link": "https://timesofindia.indiatimes.com/world/rest-of-world/jennifer-lopezs-family-foundation-donated-telemedicine-equipment-in-2012-a-seven-centre-network-in-panama-connected-childrens-doctors-with-specialists-at-childrens-hospital-los-angeles/articleshow/135025622.cms",
-    "description": "In 2012, Jennifer Lopez and her sister Lynda Lopez donated telemedicine equipment through their family foundation to improve healthcare access for children in Panama. The initiative connected hospitals and health centres across the country with specialists at Children's Hospital Los Angeles, allowing doctors to seek medical advice remotely. The programme also supported medical training, specialist consultations and knowledge-sharing among healthcare professionals.",
-    "image": "https://static.toiimg.com/photo/msid-135026415,imgsize-115758.cms",
-    "date": "2026-10-18T09:31:00+00:00"
   },
   {
     "title": "'Drishyam 3' BO Day 17: Film eyes Rs 350 crore domestic net on third Sunday",
@@ -266,39 +658,11 @@
     "date": "2026-10-18T09:30:54+00:00"
   },
   {
-    "title": "Woman paid £1 for vase, used it as plant pot; it later sold for £32,450",
-    "link": "https://timesofindia.indiatimes.com/world/uk/in-2008-a-woman-bought-a-glass-vase-for-1-at-a-scottish-car-boot-sale-and-used-it-as-a-plant-pot-after-experts-identified-it-as-a-1929-ren-lalique-piece-christies-sold-it-for-32450/articleshow/135025620.cms",
-    "description": "In 2008, a woman bought a glass vase for just £1 at a car-boot sale in Dumfries, Scotland, and used it as a plant pot. She later discovered it was a rare 1929 creation by French designer René Lalique. After experts valued it at £25,000 on Antiques Roadshow, the vase sold at Christie’s in London for £32,450.",
-    "image": "https://static.toiimg.com/photo/msid-135025749,imgsize-778518.cms",
-    "date": "2026-10-18T09:28:20+00:00"
-  },
-  {
-    "title": "Karnataka brings government employees’ services under Sakala Act; hefty fines for delays and malicious complaints",
-    "link": "https://www.thehindu.com/news/national/karnataka/karnataka-brings-government-employees-services-under-sakala-act-hefty-fines-for-delays-and-malicious-complaints/article71599457.ece",
-    "description": "Following recommendations from the seventh report of the Administrative Reforms Commission-2, time-bound delivery of internal staff services has been extended across all field-level departments and organisations",
-    "image": "https://th-i.thgim.com/public/incoming/bqcrlt/article71599526.ece/alternates/LANDSCAPE_1200/maxresdefault2.jpg",
-    "date": "2026-10-18T09:26:41+00:00"
-  },
-  {
-    "title": "Laddu prasadam in high demand at Vijayawada’s Indrakeeladri during Dasara Navaratri",
-    "link": "https://www.thehindu.com/news/cities/Vijayawada/laddu-prasadam-in-high-demand-at-vijayawadas-indrakeeladri-during-dasara-navaratri/article71597247.ece",
-    "description": "A laddu ATM lets devotees pay online and take two laddus each",
-    "image": "https://th-i.thgim.com/public/incoming/1x4ura/article71597265.ece/alternates/LANDSCAPE_1200/DSC_5732.JPG",
-    "date": "2026-10-18T09:24:09+00:00"
-  },
-  {
     "title": "Balochistan unrest: Teacher's killing by 'Pak-backed death squads' sparks outrage",
     "link": "https://timesofindia.indiatimes.com/world/pakistan/balochistan-unrest-teachers-killing-sparks-outrage-kin-say-pak-officials-shielding-death-squads/articleshow/135026407.cms",
     "description": "",
     "image": "https://static.toiimg.com/photo/msid-135026606,imgsize-58808.cms",
     "date": "2026-10-18T09:22:44+00:00"
-  },
-  {
-    "title": "‘Lifetime subscription to pressure’: Ex-cricketer’s blunt defence of Sanju Samson",
-    "link": "https://timesofindia.indiatimes.com/sports/cricket/news/lifetime-subscription-to-pressure-ex-india-cricketers-blunt-defence-of-sanju-samson/articleshow/135026572.cms",
-    "description": "Aakash Chopra has raised concerns about Sanju Samson's continued exclusion from the ODI squad. Despite impressive ODI statistics, Samson was overlooked for the New Zealand series. Chopra highlighted that multiple other wicketkeeper-batters were not selected either, indicating a possible decision on Samson's future. He compared performance metrics between Samson and other T20I players to support his point. This scrutiny comes as discussions around Samson's place in the team continue.",
-    "image": "https://static.toiimg.com/photo/msid-135026605,imgsize-110772.cms",
-    "date": "2026-10-18T09:20:29+00:00"
   },
   {
     "title": "Sugar-free ethanol? Oil companies change recipe, here's what's next",
@@ -308,48 +672,6 @@
     "date": "2026-10-18T09:18:10+00:00"
   },
   {
-    "title": "India urges nationals in Saudi Arabia to follow safety directives amid security concerns",
-    "link": "https://www.thehindu.com/news/international/india-urges-nationals-in-saudi-arabia-to-follow-safety-directives-amid-security-concerns/article71599498.ece",
-    "description": "People have been advised not to leave their homes or buildings until the threat has passed, stay away from open areas, windows and glass, and avoid standing on balconies or rooftops",
-    "image": "https://th-i.thgim.com/public/incoming/1yzffn/article71599509.ece/alternates/LANDSCAPE_1200/2col_with_referGD8GL8TK2.3.jpg.jpg",
-    "date": "2026-10-18T09:15:09+00:00"
-  },
-  {
-    "title": "Satellite radiation: blocking the view",
-    "link": "https://www.thehindu.com/sci-tech/science/satellite-radiation-blocking-the-view/article71599497.ece",
-    "description": "The findings suggest protecting the interests of astronomers requires operators to regulate licensed transmissions as well as stray radiation from onboard electronics",
-    "image": "https://th-i.thgim.com/public/sci-tech/science/afm53q/article71599494.ece/alternates/LANDSCAPE_1200/yifu-wu-L3gq2u2H6Us-unsplash.jpg",
-    "date": "2026-10-18T08:57:16+00:00"
-  },
-  {
-    "title": "U.S. lifts curbs on Mexican airlines after aviation dispute",
-    "link": "https://www.thehindu.com/news/international/us-lifts-curbs-on-mexican-airlines-after-aviation-dispute/article71595212.ece",
-    "description": "The U.S. Department of Transportation said the move reflected steps taken by Mexico ‌to address concerns over its compliance with a 2015 bilateral ‌air ⁠transport agreement",
-    "image": "https://th-i.thgim.com/public/incoming/3jm2lh/article71595213.ece/alternates/LANDSCAPE_1200/2026-10-13T110017Z_1828145077_RC2D0OA6UMQ4_RTRMADP_3_MEXICO-AIRLINES-VIVA-VOLARIS.JPG",
-    "date": "2026-10-18T08:51:58+00:00"
-  },
-  {
-    "title": "BJP leader Braj Mohan Ram sworn in as Odisha Governor",
-    "link": "https://www.thehindu.com/news/national/odisha/bjp-leader-braj-mohan-ram-sworn-in-as-odisha-governor/article71599415.ece",
-    "description": "Orissa High Court Chief Justice Harish Tandon administered the oath of office to Ram in the presence of Chief Minister Mohan Charan Majhi, Assembly Speaker Surama Padhy, state ministers, MPs and other dignitaries",
-    "image": "https://th-i.thgim.com/public/incoming/4v0y6l/article71599471.ece/alternates/LANDSCAPE_1200/BJD-takes-stronG80GLPC6M.3.jpg.jpg",
-    "date": "2026-10-18T08:49:36+00:00"
-  },
-  {
-    "title": "Court sentences Tahir Hussain to two years in NE Delhi riots case",
-    "link": "https://www.thehindu.com/news/cities/Delhi/court-sentences-tahir-hussain-to-two-years-in-ne-delhi-riots-case/article71593797.ece",
-    "description": "The court observed that although the prosecution had not established Hussain’s direct involvement in the rioting, his alleged role in facilitating the violence remained serious.",
-    "image": "https://th-i.thgim.com/public/incoming/avfuoe/article71594333.ece/alternates/LANDSCAPE_1200/Nearby_Shape-wiG46GB6BUJ.3.jpg.jpg",
-    "date": "2026-10-18T08:48:48+00:00"
-  },
-  {
-    "title": "SIR: Over 99% of hearings concluded; Form-7 auto-generated for every Form-8 resident shift",
-    "link": "https://www.thehindu.com/news/cities/bangalore/sir-over-99-of-hearings-concluded-form-7-auto-generated-for-every-form-8-resident-shift/article71592939.ece",
-    "description": "",
-    "image": "https://th-i.thgim.com/public/incoming/6fny5d/article71593745.ece/alternates/LANDSCAPE_1200/SIR_-BJP-BLA-soGBEGKANPB.5.jpg.jpg",
-    "date": "2026-10-18T08:44:45+00:00"
-  },
-  {
     "title": "'You are ruining entire town': With pistol in hand, B'desh minister raids drug den; watch",
     "link": "https://timesofindia.indiatimes.com/world/south-asia/you-are-ruining-entire-town-with-pistol-in-hand-bangladesh-minister-raids-drug-den-watch/articleshow/135025872.cms",
     "description": "",
@@ -357,207 +679,11 @@
     "date": "2026-10-18T08:39:45+00:00"
   },
   {
-    "title": "Vettri Payanam scheme plunges auto and private bus operators into livelihood crisis",
-    "link": "https://www.thehindu.com/news/cities/Madurai/vettri-payanam-scheme-plunges-auto-and-private-bus-operators-into-livelihood-crisis/article71599308.ece",
-    "description": "Auto-rickshaw drivers and private bus operators lamented that their daily collections have plummeted drastically, leaving them struggling to make ends meet",
-    "image": "https://th-i.thgim.com/public/incoming/3xduja/article71599392.ece/alternates/LANDSCAPE_1200/5-lakh-women-toGLUGK2BS8.3.jpg.jpg",
-    "date": "2026-10-18T08:39:30+00:00"
-  },
-  {
-    "title": "Stock market outlook: Geopolitical cues, earnings, FIIs to keep Dalal Street busy",
-    "link": "https://timesofindia.indiatimes.com/business/india-business/stock-market-outlook-geopolitical-cues-earnings-foreign-inflows-more-to-keep-dalal-street-busy/articleshow/135025850.cms",
-    "description": "This week, Indian stock markets will likely be influenced by the quarterly earnings reports from key banks including HDFC Bank, ICICI Bank, and Axis Bank, showcasing different profit trends that are capturing investor interest. Traders will also keep a close eye on crude oil price shifts, geopolitical events, and foreign institutional investor movements, as well as the rupee-dollar exchange rate, to determine if the recent market resurgence is sustainable.",
-    "image": "https://static.toiimg.com/photo/msid-135026222,imgsize-80346.cms",
-    "date": "2026-10-18T08:36:15+00:00"
-  },
-  {
-    "title": "International experts conclude review of Polavaram project",
-    "link": "https://www.thehindu.com/news/national/andhra-pradesh/international-experts-conclude-review-of-polavaram-project/article71597143.ece",
-    "description": "The team spent 40 hours on field visits and review meetings between October 14 and 17",
-    "image": "https://th-i.thgim.com/public/news/national/andhra-pradesh/2n8gkl/article71599466.ece/alternates/LANDSCAPE_1200/Polavaram.jpeg",
-    "date": "2026-10-18T08:35:56+00:00"
-  },
-  {
-    "title": "No fatalities reported as heavy rain leaves parts of Chennai waterlogged, says GCC",
-    "link": "https://www.thehindu.com/news/cities/chennai/no-fatalities-reported-as-heavy-rain-leaves-parts-of-chennai-waterlogged-says-gcc/article71599352.ece",
-    "description": "The Minister said additional teams had been mobilised until October 21, as further rain was expected",
-    "image": "https://th-i.thgim.com/public/news/cities/chennai/rxkfze/article71599349.ece/alternates/LANDSCAPE_1200/image.jpg",
-    "date": "2026-10-18T08:33:10+00:00"
-  },
-  {
-    "title": "Faeces in govt. school water tank: HC asks State to file status report on probe",
-    "link": "https://www.thehindu.com/news/cities/Madurai/faeces-in-govt-school-water-tank-hc-asks-state-to-file-status-report-on-probe/article71593123.ece",
-    "description": "A similar incident was reported at the Government Higher Secondary School at Thangamapatti in Dindigul district in August, the PIL petitioner said",
-    "image": "https://th-i.thgim.com/public/incoming/e9h0qj/article71593241.ece/alternates/LANDSCAPE_1200/Plea-in-HC-wantGKRGD0GS2.4.jpg.jpg",
-    "date": "2026-10-18T08:33:05+00:00"
-  },
-  {
-    "title": "Stations of Metro Rail’s Phase 2 network to get new names, better look",
-    "link": "https://www.thehindu.com/news/cities/chennai/stations-of-metro-rails-phase-2-network-to-get-new-names-better-look/article71592495.ece",
-    "description": "",
-    "image": "https://th-i.thgim.com/public/incoming/ycgzxj/article71594162.ece/alternates/LANDSCAPE_1200/BVR_6891.JPG",
-    "date": "2026-10-18T08:32:59+00:00"
-  },
-  {
-    "title": "GCC opens Nageswara Rao Park in Mylapore after renovation",
-    "link": "https://www.thehindu.com/news/cities/chennai/gcc-opens-nageswara-rao-park-in-mylapore-after-renovation/article71593329.ece",
-    "description": "Park was renovated at a cost of ₹8.49 cr.; it now has a 1.6 km-long footpath, 28 varieties of plants, children’s play area, badminton court",
-    "image": "https://th-i.thgim.com/public/news/national/tamil-nadu/p8gt40/article71593805.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-16%20at%209.41.01%20PM.jpeg",
-    "date": "2026-10-18T08:32:56+00:00"
-  },
-  {
-    "title": "Falling returns: Is it time to pause your SIP? | Pocket Money Podcast",
-    "link": "https://www.thehindu.com/podcast/falling-returns-is-it-time-to-pause-your-sip-pocket-money-podcast/article71592527.ece",
-    "description": "In this episode, Vivek Kaul unpacks foreign investor outflows, record SIP inflows and falling markets, exploring what these trends mean for valuations and whether investors should continue their SIPs.",
-    "image": "https://th-i.thgim.com/public/incoming/6jzm7r/article71592534.ece/alternates/LANDSCAPE_1200/Black%20and%20Red%20Bold%20Creative%20Scribble%20Artist%20Logo%204.png",
-    "date": "2026-10-18T08:31:41+00:00"
-  },
-  {
-    "title": "America's biggest investor, who predicted the 2008 crash, shares 10 life lessons",
-    "link": "https://timesofindia.indiatimes.com/technology/tech-news/americas-biggest-investor-michael-burry-who-predicted-us-housing-crash-of-2008-has-a-10-point-life-advice-for-everyone-goes-from-relationships-to-charity/articleshow/135026142.cms",
-    "description": "Michael Burry presents ten vital lessons that encompass the essence of meaningful living. His insights touch on self-betterment, financial wisdom, nurturing relationships, and deep family values. Gratitude and generosity stand out as pivotal themes, culminating in a call for charitable actions. Through his guidance, Burry inspires a commitment to lifelong learning and thoughtful financial choices, urging individuals to embrace a richer, more responsible life.",
-    "image": "https://static.toiimg.com/photo/msid-135026161,imgsize-78465.cms",
-    "date": "2026-10-18T08:30:36+00:00"
-  },
-  {
-    "title": "Telangana BJP gears up for graduate MLC elections, focuses on voter enrolment and candidates selection",
-    "link": "https://www.thehindu.com/news/national/telangana/telangana-bjp-gears-up-for-graduate-mlc-elections-focuses-on-voter-enrolment-and-candidates-selection/article71599310.ece",
-    "description": "N. Ramchander Rao stressed the need to ensure that every eligible graduate was registered as a voter and exercised their franchise",
-    "image": "https://th-i.thgim.com/public/incoming/ib4gja/article71599416.ece/alternates/LANDSCAPE_1200/SIR-exposing-ilG7JGKF3DQ.4.jpg.jpg",
-    "date": "2026-10-18T08:29:31+00:00"
-  },
-  {
-    "title": "242 candidates file nominations for ward members in Vijayawada, four for mayoral post",
-    "link": "https://www.thehindu.com/news/national/andhra-pradesh/242-candidates-file-nominations-for-ward-members-in-vijayawada-four-for-mayoral-post/article71597008.ece",
-    "description": "Three independents and one Aam Aadmi Party candidate file papers for the Mayor’s post; 14 independents also submit nominations for ward member seats",
-    "image": "https://th-i.thgim.com/public/incoming/brrlft/article71597443.ece/alternates/LANDSCAPE_1200/10215_17_10_2026_16_17_19_1_DSC_6503.JPG",
-    "date": "2026-10-18T08:28:13+00:00"
-  },
-  {
-    "title": "Nothing can save CEC; SIR must be suspended forthwith: Congress",
-    "link": "https://www.thehindu.com/news/national/nothing-can-save-cec-sir-must-be-suspended-forthwith-congress/article71599359.ece",
-    "description": "The ECI has ordered the annual SSR of electoral rolls in 17 States and Union territories, including those scheduled to hold Assembly elections early next year",
-    "image": "https://th-i.thgim.com/public/incoming/jem6w6/article71599450.ece/alternates/LANDSCAPE_1200/IMG_04_Jairam_Ramesh_PC__2_1_60GIIRAH.jpg",
-    "date": "2026-10-18T08:28:07+00:00"
-  },
-  {
-    "title": "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness",
-    "link": "https://www.thehindu.com/news/cities/Delhi/cockroach-effigy-at-delhi-ramlila-event-triggers-queries-organisers-say-promoting-cleanliness/article71599268.ece",
-    "description": "",
-    "image": "https://th-i.thgim.com/public/incoming/c9b7l/article71599315.ece/alternates/LANDSCAPE_1200/11TH_OPED1_G6KGGF9GLAADF.3.jpg.jpg",
-    "date": "2026-10-18T08:23:51+00:00"
-  },
-  {
-    "title": "Madhya Pradesh CM Mohan Yadav meets Andhra CM Naidu, Deputy CM Pawan Kalyan",
-    "link": "https://www.thehindu.com/news/national/andhra-pradesh/madhya-pradesh-cm-mohan-yadav-meets-andhra-cm-naidu-deputy-cm-pawan-kalyan/article71596550.ece",
-    "description": "Mr. Pawan Kalyan raises tiger conservation and the reintroduction of Indian bison in Nagarjunasagar-Srisailam Tiger Reserve",
-    "image": "https://th-i.thgim.com/public/incoming/957rs7/article71597529.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-17%20at%2019.01.05%201.jpeg",
-    "date": "2026-10-18T08:21:01+00:00"
-  },
-  {
-    "title": "Few localities in west Velachery flooded due to heavy rain",
-    "link": "https://www.thehindu.com/news/cities/chennai/few-localities-in-west-velachery-flooded-due-to-heavy-rain/article71599403.ece",
-    "description": "The residents of AGS Colony, Saraswathi nagar, Bhuvaneshwari Nagar, Aandal nagar and Mohanapuri, suffered flooding like situation because of the slow evacuation of rainwater in the Veerangal Odai, which is ultimately linked to the Pallikaranai Marshland",
-    "image": "https://th-i.thgim.com/public/news/national/kfx4gz/article71599448.ece/alternates/LANDSCAPE_1200/Velachery.jpg",
-    "date": "2026-10-18T08:20:38+00:00"
-  },
-  {
-    "title": "Pakistan extends airspace ban on Indian aircraft till November 24",
-    "link": "https://www.thehindu.com/news/international/pakistan-extends-airspace-ban-on-indian-aircraft-till-november-24/article71599424.ece",
-    "description": "India and Pakistan imposed reciprocal airspace restrictions on each other’s aircraft following the April 2025 Pahalgam terror attack in Jammu and Kashmir",
-    "image": "https://th-i.thgim.com/public/incoming/astkqp/article71599431.ece/alternates/LANDSCAPE_1200/iStock-530089923.jpg",
-    "date": "2026-10-18T08:17:50+00:00"
-  },
-  {
-    "title": "‘Jailer 2’ box office collection day 4: Rajinikanth starrer sets sight on Rs 200 cr",
-    "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/box-office/jailer-2-box-office-collection-day-4-live-rajinikanth-starrer-sets-sight-on-rs-200-crore-gross-on-first-sunday-after-crossing-rs-155-crore-india-net-and-surpassing-vijays-jana-nayagan-and-suriyas-karuppu/articleshow/135025951.cms",
-    "description": "The much-anticipated film 'Jailer 2', featuring Rajinikanth, has dominated the box office in its opening days, amassing an astonishing Rs 11.33 crore on its fourth day alone from 4,223 shows throughout India. With a total earning of Rs 155.38 crore, it has outpaced other films like 'Jana Nayagan' and 'Karuppu'. The Tamil version has led the charge, bolstered by strong performances and captivating music that keep audiences flocking to theaters.",
-    "image": "https://static.toiimg.com/photo/msid-135025957,imgsize-156273.cms",
-    "date": "2026-10-18T08:15:37+00:00"
-  },
-  {
-    "title": "The glory of Sundarakanda",
-    "link": "https://www.thehindu.com/society/faith/the-glory-of-sundara-kanda/article71592643.ece",
-    "description": "",
-    "image": null,
-    "date": "2026-10-18T08:14:29+00:00"
-  },
-  {
-    "title": "Is the all-format cricketer doomed to go extinct?",
-    "link": "https://www.thehindu.com/sport/cricket/is-the-all-format-cricketer-doomed-to-go-extinct/article71592519.ece",
-    "description": "Only a select few have the elasticity of skill required to thrive in Tests, ODIs and T20Is. But even this rare ability might not be enough in an age of taxing, overlapping schedules. Will larger-than-life stars, with an impact spanning three formats, become a thing of the past?",
-    "image": "https://th-i.thgim.com/public/incoming/vgtm0j/article71592493.ece/alternates/LANDSCAPE_1200/GettyImages-2159845100.jpg",
-    "date": "2026-10-18T08:13:56+00:00"
-  },
-  {
-    "title": "Gandikota’s timeless landscape faces modern-day pressures",
-    "link": "https://www.thehindu.com/news/national/andhra-pradesh/gandikotas-timeless-landscape-faces-modern-day-pressures/article71592579.ece",
-    "description": "The Andhra Pradesh government’s efforts to recognise Gandikota’s tourism potential have put this geologically significant site back in the spotlight. However, with renewed activity and growing popularity, the site is experiencing poor waste management that takes a heavy toll on the environment. Furthermore, it continues to struggle with heavy foot traffic, natural weathering, and systemic neglect",
-    "image": "https://th-i.thgim.com/public/incoming/jq6ga/article71592838.ece/alternates/LANDSCAPE_1200/file_0000000020f082119bebfcbec560467a9pho.jpg",
-    "date": "2026-10-18T08:13:50+00:00"
-  },
-  {
-    "title": "'Urgent shopping' amid chaos: 1,200 arrested as France stores looted, vandalised",
-    "link": "https://timesofindia.indiatimes.com/world/europe/urgent-shopping-amid-chaos-1200-arrested-150-police-hurt-as-france-stores-looted-vandalised/articleshow/135025928.cms",
-    "description": "",
-    "image": "https://static.toiimg.com/photo/msid-135025987,imgsize-91672.cms",
-    "date": "2026-10-18T08:13:45+00:00"
-  },
-  {
-    "title": "Truck rams into devotees near temple in Gwalior, 13 killed and nearly 40 injured",
-    "link": "https://www.thehindu.com/videos/truck-rams-into-devotees-near-temple-in-gwalior-13-killed-and-nearly-40-injured/article71599443.ece",
-    "description": "Thirteen people were killed and nearly 40 others injured after a truck carrying paddy rammed into devotees gathered near near a temple in Gwalior.",
-    "image": "https://th-i.thgim.com/public/incoming/7o2cms/article71599436.ece/alternates/LANDSCAPE_1200/Screenshot%202026-10-18%20134059.png",
-    "date": "2026-10-18T08:13:31+00:00"
-  },
-  {
-    "title": "Using mobile phones in speaker mode in trains and railway premises attracts removal from railway premises, fine and imprisonment",
-    "link": "https://www.thehindu.com/news/cities/Mangalore/using-mobile-phones-in-speaker-mode-in-trains-and-railway-premises-attracts-removal-from-railway-premises-fine-and-imprisonment/article71599384.ece",
-    "description": "Talking loudly in railway premises too amounts to nuisance under the Railways Act as amended through the Jan Vishwas Act, says Southern Railway",
-    "image": "https://th-i.thgim.com/public/news/cities/Mangalore/pb96j4/article71599391.ece/alternates/LANDSCAPE_1200/f4a1b611-6016-431c-a59d-bd3f051b225a.JPG",
-    "date": "2026-10-18T08:13:03+00:00"
-  },
-  {
-    "title": "Fisheries expert B. Madhusoodana Kurup passes away",
-    "link": "https://www.thehindu.com/news/national/kerala/b-madhusoodana-kurup-passed-away/article71599202.ece",
-    "description": "Kurup had also served as the advisor to the State Fisheries Minister S. Sarma",
-    "image": "https://th-i.thgim.com/public/incoming/qfcfjc/article71599432.ece/alternates/LANDSCAPE_1200/IMG-20260306-WA0061.jpg",
-    "date": "2026-10-18T08:12:26+00:00"
-  },
-  {
-    "title": "'Darling, let's go to France': Trump takes swipe as protests take over the country",
-    "link": "https://timesofindia.indiatimes.com/world/us/darling-lets-go-to-france-trump-takes-swipe-as-protests-take-over-the-country/articleshow/135025820.cms",
-    "description": "At a rally in Dalton, Georgia, Donald Trump took a lighthearted jab at France's revolutionary history while proposing a conditional payment of $5,000 to adult Americans if Republicans secure a midterm victory. He whimsically suggested that this money could be enjoyed in France instead of domestically, referencing current protests in France over financial strains and public services. The intention behind this proposal is to encourage spending within the US economy.",
-    "image": "https://static.toiimg.com/photo/msid-135025954,imgsize-49640.cms",
-    "date": "2026-10-18T08:10:27+00:00"
-  },
-  {
-    "title": "'It's murder': Big twist in Noida family deaths as dispute over property emerges",
-    "link": "https://timesofindia.indiatimes.com/city/noida/not-food-poisoning-it-is-murder-twist-in-noida-family-deaths-as-dispute-over-property-emerges/articleshow/135025787.cms",
-    "description": "Five members of a family were found dead in their home in Nagla Shri Padam village on Saturday. Initial suspicions of food poisoning were ruled out as the cause of death remains unclear. Relatives have accused family members of involvement in a property dispute, which may have led to distress. Neighbors reported frequent arguments within the household before the tragic incident.",
-    "image": "https://static.toiimg.com/photo/msid-135025851,imgsize-101694.cms",
-    "date": "2026-10-18T08:07:43+00:00"
-  },
-  {
-    "title": "FPIs hit the sell button again: Rs 3.12 lakh crore exits Indian equities in 2026",
-    "link": "https://timesofindia.indiatimes.com/business/india-business/fpis-hit-the-sell-button-again-rs-3-12-lakh-crore-exits-indian-equities-in-2026/articleshow/135025596.cms",
-    "description": "In October, foreign investors pulled out Rs 52,100 crore from Indian equity markets, contributing to overall outflows this year. Escalating crude oil prices and elevated US bond yields have swayed this selling behavior. Although there was a momentary resurgence in buying, the cautious investor sentiment prevails against a backdrop of global economic volatility.",
-    "image": "https://static.toiimg.com/photo/msid-135025624,imgsize-30234.cms",
-    "date": "2026-10-18T07:53:07+00:00"
-  },
-  {
-    "title": "‘Chalo Yamuna Abhiyan’: Delhi CM Rekha Gupta joins cleanliness drive at ITO",
-    "link": "https://timesofindia.indiatimes.com/city/delhi/chalo-yamuna-abhiyan-delhi-cm-rekha-gupta-joins-cleanliness-drive-at-ito-flags-plastic-idol-waste-in-river/articleshow/135025671.cms",
-    "description": "In an effort to restore the Yamuna River's beauty, Delhi Chief Minister Rekha Gupta took part in a cleanliness drive alongside her Cabinet colleagues and enthusiastic youth volunteers from local social groups. Together, they worked diligently to rid the riverbank of plastic and idol fragments, stressing the communal responsibility for the river's upkeep.",
-    "image": "https://static.toiimg.com/photo/msid-135025726,imgsize-111710.cms",
-    "date": "2026-10-18T07:50:31+00:00"
-  },
-  {
-    "title": "Gill falls for 1 run: India Test captain fails on Ranji return ahead of NZ Tests",
-    "link": "https://timesofindia.indiatimes.com/sports/cricket/news/shubman-gill-scores-just-one-run-on-ranji-trophy-return-ahead-of-new-zealand-tests/articleshow/135025631.cms",
-    "description": "Shubman Gill scored just one run for Punjab against Chhattisgarh in his Ranji Trophy return ahead of India’s Test series against New Zealand, starting November 19. Ajay Mandal dismissed him after five deliveries. Gill will play the first three New Zealand ODIs before preparing for the Tests. Despite the setback, he has scored 1,095 international runs this year, including four centuries.",
-    "image": "https://static.toiimg.com/photo/msid-135025683,imgsize-107286.cms",
-    "date": "2026-10-18T07:44:18+00:00"
+    "title": "Utah couple builds $2m backyard scuba pool with 90-foot mountain and lazy river",
+    "link": "https://timesofindia.indiatimes.com/world/us/a-utah-couple-wanted-a-place-to-scuba-without-travelling-so-they-built-a-2-million-360000-gallon-backyard-pool-with-a-90-foot-mountain-five-waterfalls-a-300-foot-lazy-river-and-a-26-foot-deep-diving-tunnel/articleshow/135025750.cms",
+    "description": "In Utah, a dedicated couple has poured $2 million into an extraordinary backyard pool designed specifically for scuba diving. This stunning installation boasts a remarkable 90-foot artificial mountain, five magnificent waterfalls, and an exhilarating underwater tunnel. By creating such a bespoke sanctuary, they provide a fantastic recreational escapade for scuba lovers, complete with a lazy river and a fully equipped kitchen set within the mountain's embrace.",
+    "image": "https://static.toiimg.com/photo/msid-135025811,imgsize-1009933.cms",
+    "date": "2026-10-18T08:19:24+00:00"
   },
   {
     "title": "France's 140 year old Town Hall survived World Wars but succumbed to protesters",
@@ -565,55 +691,6 @@
     "description": "",
     "image": "https://static.toiimg.com/photo/msid-135025678,imgsize-138616.cms",
     "date": "2026-10-18T07:42:52+00:00"
-  },
-  {
-    "title": "Driver, owner arrested after truck rams devotees near Gwalior temple; 15 killed",
-    "link": "https://timesofindia.indiatimes.com/city/bhopal/driver-owner-arrested-after-speeding-truck-rams-devotees-near-gwalior-temple-15-killed/articleshow/135025582.cms",
-    "description": "In a heartbreaking incident, 15 pilgrims lost their lives and 26 were injured when a truck crashed into them near Sheetla Mata Temple in Gwalior at 1:30 am. The police have arrested the driver and the truck owner, raising questions from families over the vehicle's entry into a restricted zone.",
-    "image": "https://static.toiimg.com/photo/msid-135025626,imgsize-1315013.cms",
-    "date": "2026-10-18T07:35:08+00:00"
-  },
-  {
-    "title": "Can hackers get into your fridge? Your smart home may be less safe than you think",
-    "link": "https://timesofindia.indiatimes.com/world/rest-of-world/can-hackers-get-into-your-fridge-your-smart-home-may-be-less-safe-than-you-think/articleshow/135025299.cms",
-    "description": "As the prevalence of internet-connected devices grows, so do the vulnerabilities they present to consumers. Everyday items like refrigerators, surveillance cameras, and smart cars are at risk of cyber intrusion. Hackers can exploit these devices to steal personal data and disrupt vital services. Experts suggest measures such as changing default passwords, enabling two-factor authentication, and minimizing the number of online devices to mitigate these threats.",
-    "image": "https://static.toiimg.com/photo/msid-135025331,imgsize-101026.cms",
-    "date": "2026-10-18T07:14:53+00:00"
-  },
-  {
-    "title": "‘RR are at the top of the list’: Ashwin makes big revelation on Hardik Pandya trade",
-    "link": "https://timesofindia.indiatimes.com/sports/cricket/news/rr-are-at-the-top-of-the-list-ashwin-makes-big-revelation-on-hardik-pandya-trade/articleshow/135025373.cms",
-    "description": "With the IPL season looming, the chatter about Hardik Pandya's future at Mumbai Indians is heating up. Renowned former cricketer Ravichandran Ashwin suggested that a move to Chennai Super Kings could be advantageous for CSK, though he doubts its likelihood anytime soon. Ashwin sees Rajasthan Royals as a more realistic contender for Hardik's next signing. Additionally, Mumbai Indians face a critical juncture after losing head coach Mahela Jayawardene.",
-    "image": "https://static.toiimg.com/photo/msid-135025398,imgsize-31444.cms",
-    "date": "2026-10-18T07:11:45+00:00"
-  },
-  {
-    "title": "France protests leave Paris streets buried in garbage amidst violence, looting",
-    "link": "https://timesofindia.indiatimes.com/world/europe/france-protests-leave-paris-streets-buried-in-rubbish-amidst-violence-looting-across-nation/articleshow/135025364.cms",
-    "description": "",
-    "image": "https://static.toiimg.com/photo/msid-135025380,imgsize-216412.cms",
-    "date": "2026-10-18T07:10:13+00:00"
-  },
-  {
-    "title": "Watch: ‘Anti-India Ravana’ posters put up in Lucknow with Rahul, Musk among faces",
-    "link": "https://timesofindia.indiatimes.com/india/anti-india-ravana-posters-put-up-in-lucknow-with-rahul-gandhi-elon-musk-among-faces-watch/articleshow/135024972.cms",
-    "description": "",
-    "image": "https://static.toiimg.com/photo/msid-135026160,imgsize-80940.cms",
-    "date": "2026-10-18T07:08:41+00:00"
-  },
-  {
-    "title": "'Don't stand on roof, balconies': India urges nationals in Saudi amid Houthi strikes",
-    "link": "https://timesofindia.indiatimes.com/world/middle-east/dont-stand-on-roof-balconies-india-urges-nationals-in-saudi-amid-houthi-strikes/articleshow/135025053.cms",
-    "description": "",
-    "image": "https://static.toiimg.com/photo/msid-135025308,imgsize-96516.cms",
-    "date": "2026-10-18T07:01:25+00:00"
-  },
-  {
-    "title": "‘Reveals his intentions’: Uttrakhand minister on husband’s demand to withdraw FIR",
-    "link": "https://timesofindia.indiatimes.com/city/dehradun/my-life-is-an-open-book-uttarakhand-minister-rekha-arya-rejects-husbands-rs-210-crore-corruption-charge-calls-ai-audio-100-authentic/articleshow/135025017.cms",
-    "description": "In a bold response to her husband's corruption allegations, Rekha Arya, the Women Empowerment and Child Development Minister of Uttarakhand, defends her reputation, asserting her financial records are clear and inviting a thorough investigation. Sahu's unsupported claims of illegal assets compel the formation of a Special Investigation Team. Arya highlights the vital role of women in speaking against domestic abuse, promoting empowerment and transparency amidst the tumult.",
-    "image": "https://static.toiimg.com/photo/msid-135025057,imgsize-89694.cms",
-    "date": "2026-10-18T06:42:44+00:00"
   },
   {
     "title": "New Jersey court upholds will cutting two sons out of mother’s estate",
@@ -630,46 +707,11 @@
     "date": "2026-10-18T06:19:10+00:00"
   },
   {
-    "title": "Astronomers discover green star 280 light-years away; what makes it glow green",
-    "link": "https://timesofindia.indiatimes.com/science/astronomers-discover-green-star-280-light-years-away-what-makes-it-glow-green/articleshow/135024584.cms",
-    "description": "Astronomers have discovered an intriguing white dwarf star designated WD J1330+6435, nestled within the Draco constellation. Its striking green hue arises from the interaction of sodium and helium particles in its atmosphere. This celestial body lies about 280 light-years from Earth, presenting itself as it was 280 years ago. With a surface temperature nearing 4,000 degrees Celsius, its dimensions are comparable to that of our planet.",
-    "image": "https://static.toiimg.com/photo/msid-135024725,imgsize-47062.cms",
-    "date": "2026-10-18T06:02:40+00:00"
-  },
-  {
-    "title": "‘Pandal will collapse’: Announcement that may have triggered Kolkata stampede; watch",
-    "link": "https://timesofindia.indiatimes.com/city/kolkata/please-leave-pandal-will-collapse-video-captures-misleading-announcement-before-kolkata-stampede-that-killed-19/articleshow/135024424.cms",
-    "description": "A stampede occurred at the Chorbagan Durga Puja pandal, leading to 19 fatalities and multiple injuries. Panic ensued after a warning announced the potential collapse of the pandal, contributing to the chaos. Police investigations revealed issues with crowd management and inadequate announcements during the event. The government has promised compensation for the victims' families and is reviewing safety protocols at puja pandals.",
-    "image": "https://static.toiimg.com/photo/msid-135024482,imgsize-133043.cms",
-    "date": "2026-10-18T05:59:31+00:00"
-  },
-  {
-    "title": "‘Massive difference between words and actions’: Ex-cricketer’s on Jadeja’s snub",
-    "link": "https://timesofindia.indiatimes.com/sports/cricket/news/massive-difference-between-words-and-actions-ex-india-cricketers-blunt-take-on-ravindra-jadejas-snub/articleshow/135024338.cms",
-    "description": "Aakash Chopra is voicing his concerns about the absence of Ravindra Jadeja from India's ODI series against New Zealand, suggesting a preference for Axar Patel that contradicts previous commitments made by management regarding Jadeja's future. Additionally, the exclusion of Manav Suthar from the Test squad is puzzling, considering his stellar debut. Chopra advocates for selectors to openly discuss the reasons behind such omissions with players to foster transparency.",
-    "image": "https://static.toiimg.com/photo/msid-135024351,imgsize-128290.cms",
-    "date": "2026-10-18T05:37:00+00:00"
-  },
-  {
-    "title": "School woes, inflation, political discontent: What is fuelling violent France protests",
-    "link": "https://timesofindia.indiatimes.com/world/europe/student-grievances-cost-of-living-crisis-political-discontent-why-are-protests-turning-violent-in-france/articleshow/135023967.cms",
-    "description": "",
-    "image": "https://static.toiimg.com/photo/msid-135024176,imgsize-167832.cms",
-    "date": "2026-10-18T05:19:55+00:00"
-  },
-  {
-    "title": "Holy cow! Rs 20 lakh paid for a cowshed that doesn’t exist",
-    "link": "https://timesofindia.indiatimes.com/city/bhopal/holy-cow-20-lakh-paid-for-a-cowshed-that-doesnt-exist/articleshow/135023934.cms",
-    "description": "A cowshed project in Dabhoura, Rewa district, has been marred by alleged fraud and incomplete work. Despite receiving over Rs 20 lakh, the project features only a partially built boundary wall. Investigators revealed that the tender process was allegedly manipulated to benefit a specific supplier, resulting in legal action against six individuals. The Economic Offences Wing is actively investigating the irregularities surrounding the project's funding and execution.",
-    "image": "https://static.toiimg.com/photo/msid-135024130,imgsize-1696549.cms",
-    "date": "2026-10-18T05:10:50+00:00"
-  },
-  {
-    "title": "How Indian couples are spending crores to have a baby boy",
-    "link": "https://timesofindia.indiatimes.com/city/hyderabad/baby-boy-hunt-takes-indians-to-foreign-shores/articleshow/135023380.cms",
-    "description": "Affluent Indian couples are increasingly opting for foreign IVF and surrogacy packages to ensure the birth of male children. Destinations such as the UAE, US, and Colombia offer advanced gender selection technologies, a practice not permitted in India. With costs ranging from ₹15 lakh to ₹1.7 crore, this trend prompts many to seek services abroad, particularly as regulatory changes within India prompt couples to explore international options.",
-    "image": "https://static.toiimg.com/photo/msid-135023907,imgsize-1442462.cms",
-    "date": "2026-10-18T04:42:16+00:00"
+    "title": "After years of rivalry, Apple and Meta are working together; one man made it happen",
+    "link": "https://timesofindia.indiatimes.com/technology/tech-news/meta-ai-chief-alexandr-wang-reveals-the-man-who-made-the-impossible-possible-between-apple-and-meta/articleshow/135024880.cms",
+    "description": "Meta and Apple have commenced a collaboration to run Meta's Muse Spark Open AI model on Mac Studio computers. This partnership comes after years of rivalry following privacy disputes between Tim Cook and Mark Zuckerberg. The Muse Spark Open model, with 816 billion parameters, is designed for complex tasks like coding and video analysis. The setup utilizes Apple’s M5 Ultra chips to power the model while maintaining developer privacy.",
+    "image": "https://static.toiimg.com/photo/msid-135024887,imgsize-50842.cms",
+    "date": "2026-10-18T06:18:07+00:00"
   },
   {
     "title": "How Tom Brady's childhood love for baseball cards inspired his business",
@@ -679,41 +721,6 @@
     "date": "2026-10-18T03:06:39+00:00"
   },
   {
-    "title": "Travis Kelce's $5.35m mansion faces another property review",
-    "link": "https://timesofindia.indiatimes.com/sports/nfl/news/travis-kelces-5-35-million-mansion-faces-new-developments-as-officials-schedule-another-property-review/articleshow/135022409.cms",
-    "description": "Travis Kelce’s $5.35 million Ohio mansion faces fresh scrutiny as local officials continue reviewing plans for the historic lakeside estate. While the revised six-foot privacy fence received approval in September, the proposed rear landscaping remains unresolved. Neighbors have raised concerns about tree heights and potential damage to shared sewer lines. Bratenahl’s Architectural Review Board is scheduled to revisit the landscaping proposal on November 10, 2026, leaving parts of the property improvements pending.",
-    "image": "https://static.toiimg.com/photo/msid-135022423,imgsize-148517.cms",
-    "date": "2026-10-18T00:05:58+00:00"
-  },
-  {
-    "title": "Internet is fundamental right of all, even children: Supreme Court",
-    "link": "https://timesofindia.indiatimes.com/india/internet-is-fundamental-right-of-all-even-children-supreme-court/articleshow/135020333.cms",
-    "description": "",
-    "image": "https://static.toiimg.com/photo/msid-135020334,imgsize-64008.cms",
-    "date": "2026-10-17T21:54:56+00:00"
-  },
-  {
-    "title": "Gurgaon road rage: SUV rams car, driver 'grabs' woman by neck and pulls her T-shirt",
-    "link": "https://timesofindia.indiatimes.com/city/gurgaon/scorpio-rams-car-in-gurgaon-its-driver-grabs-woman-by-neck-pulls-her-t-shirt/articleshow/135020245.cms",
-    "description": "A courageous woman in Gurgaon confronted an SUV driver after he crashed into her car, injuring her and her family. The encounter turned violent when the reportedly intoxicated driver attacked her, leading to bystanders stepping in. Authorities arrested him, filing charges under multiple laws. Medical reports verified the family's injuries, and an investigation into the drunk driving claims is actively progressing.",
-    "image": "https://static.toiimg.com/photo/msid-135023227,imgsize-1640371.cms",
-    "date": "2026-10-17T20:38:53+00:00"
-  },
-  {
-    "title": "Now, 2nd notice for Imran Khan on OCI status",
-    "link": "https://timesofindia.indiatimes.com/city/mumbai/frro-mumbai-issues-second-notice-to-actor-imran-khan-asks-why-his-oci-status-should-not-be-cancelled/articleshow/135017969.cms",
-    "description": "Imran Khan, a US citizen, has received a show-cause notice regarding his Overseas Citizen of India status. This notice demands Khan to explain why his OCI card should not be revoked due to his involvement in a protest deemed unlawful. The Foreigners Regional Registration Office has raised concerns regarding public safety and security.",
-    "image": "https://static.toiimg.com/photo/msid-135022997,imgsize-70856.cms",
-    "date": "2026-10-17T18:42:53+00:00"
-  },
-  {
-    "title": "21 BJP-RSS workers acquitted in SDPI activist’s murder in Keralam",
-    "link": "https://timesofindia.indiatimes.com/city/kozhikode/21-bjp-rss-workers-acquitted-in-sdpi-activists-murder-in-keralam/articleshow/135018399.cms",
-    "description": "The additional district and sessions court in Kasaragod has acquitted 21 BJP-RSS individuals in the murder case of Zainul Abid from 2014. The judge concluded that the prosecution was unable to substantiate its claims against the accused. Abid, who was assaulted by armed attackers while supporting his father near the Old Bus Stand, ultimately succumbed to his wounds despite nearby shopowners' attempts to assist.",
-    "image": "https://static.toiimg.com/photo/msid-135024498,imgsize-1014680.cms",
-    "date": "2026-10-17T17:38:18+00:00"
-  },
-  {
     "title": "Why should MEA question CM role on foreign trip: HC",
     "link": "https://timesofindia.indiatimes.com/city/chandigarh/no-reasons-are-forthcoming-hc-on-centres-denial-to-manns-france-visit/articleshow/135018386.cms",
     "description": "",
@@ -721,17 +728,10 @@
     "date": "2026-10-17T17:36:53+00:00"
   },
   {
-    "title": "Indians to benefit as Canada moves to award points for job offers",
-    "link": "https://timesofindia.indiatimes.com/nri/us-canada-news/canada-to-award-extra-express-entry-points-under-new-high-wage-rules-indian-professionals-could-benefit/articleshow/135010465.cms",
-    "description": "",
-    "image": "https://static.toiimg.com/photo/msid-135010500,imgsize-56748.cms",
+    "title": "Andre Agassi and Steffi Graf raise $300,000 for charity with 20 luxury watches",
+    "link": "https://timesofindia.indiatimes.com/sports/international-sports/weve-been-able-to-raise-more-funds-and-continue-to-grow-how-andre-agassi-and-steffi-graf-turned-20-limited-edition-watches-into-300000-for-charity/articleshow/135007341.cms",
+    "description": "In 2018, Andre Agassi and Steffi Graf celebrated their partnership with Longines by organizing a charity auction. The auction raised $300,000 for their respective foundations, supporting education and children's trauma recovery. The event took place at the Musée Rodin in Paris, highlighting their decade-long collaboration with the watchmaker. Graf's foundation, Children for Tomorrow, expanded its reach into schools thanks to newfound funding.",
+    "image": "https://static.toiimg.com/photo/msid-135007416,imgsize-102352.cms",
     "date": "2026-10-17T15:30:00+00:00"
-  },
-  {
-    "title": "Brad Paisley and wife help open free Nashville grocery store with $1m gift",
-    "link": "https://timesofindia.indiatimes.com/world/us/in-2024-brad-paisley-and-kimberly-williams-paisley-put-1-million-toward-a-second-free-grocery-store-two-years-later-the-nashville-site-opened-so-families-could-choose-food-without-paying/articleshow/135007554.cms",
-    "description": "Brad Paisley and Kimberly Williams-Paisley have expanded their philanthropic efforts by launching a second location of The Store, a nonprofit grocery aimed at combating food insecurity in Nashville. Following their first store's success in 2020, which garnered over 3,100 dedicated volunteers, the couple has invested $1 million into this new initiative to ensure families receive dignified access to food choices and additional resources.",
-    "image": "https://static.toiimg.com/photo/msid-135007635,imgsize-848406.cms",
-    "date": "2026-10-17T10:44:00+00:00"
   }
 ]
